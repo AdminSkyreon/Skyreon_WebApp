@@ -1,0 +1,37 @@
+{
+  "sectionTitle": "Get to know our services",
+  "items": [
+    {
+      "id": 1,
+      "tag": "AI & ORCHESTRATION",
+      "title": "Enterprise AI Agents",
+      "subtitle": "The ultimate AI performance for modern systems.",
+      "expandedText": "Custom engineered LLM architecture, autonomous multi-agent systems, and real-time enterprise data processing. ",
+      "image": "/skyreon/services/service1.png"
+    },
+    {
+      "id": 2,
+      "tag": "DATA ENGINE",
+      "title": "SQL & Core Databases",
+      "subtitle": "High-throughput database architecture.",
+      "expandedText": "Advanced query tuning, high-availability cluster setup, zero-downtime replication, and petabyte-scale data vault optimization.",
+      "image": "/skyreon/services/service2.png"
+    },
+    {
+      "id": 3,
+      "tag": "CLOUD INFRASTRUCTURE",
+      "title": "Multi-Cloud Networks",
+      "subtitle": "Zero-trust serverless environments.",
+      "expandedText": "Kubernetes cluster orchestration, multi-region failover automation, and CI/CD security pipelines.",
+      "image": "/skyreon/services/service3.png"
+    },
+    {
+      "id": 4,
+      "tag": "FULL-STACK PLATFORMS",
+      "title": "Custom Applications",
+      "subtitle": "Ultra-fast digital experience.",
+      "expandedText": "Next.js enterprise frontend frameworks integrated seamlessly with high-concurrency microservice APIs.",
+      "image": "/skyreon/services/service4.png"
+    }
+  ]
+}

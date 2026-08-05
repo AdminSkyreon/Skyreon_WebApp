@@ -1,0 +1,27 @@
+{
+  "slug": "it-consulting",
+  "title": "IT Consulting Services",
+  "heroDescription": "In an era of rapid digital disruption and evolving market complexities, aligning technology infrastructure with core business objectives is paramount for sustainable competitive advantage and long-term enterprise growth. Skyreon delivers enterprise-grade IT Consulting services designed to architect resilient digital transformation strategies, optimize mission-critical workflows, and future-proof corporate technology ecosystems. We bridge the gap between visionary business leadership and advanced technical execution to ensure maximum operational efficiency, stringent governance, and high-impact ROI for your organization.",
+  "heroImage": "/skyreon/service-details/it-consulting.png",
+  "introParagraphs": [
+    "Modern enterprises face unprecedented challenges in managing legacy systems while simultaneously adopting cutting-edge innovations. Navigating this delicate balance requires strategic foresight, robust architectural frameworks, and expert guidance to avoid costly missteps and operational friction.",
+    "Our comprehensive IT consulting framework combines deep industry domain knowledge, rigorous solution assessments, and structured roadmaps. We help organizations modernize their technology stacks, align IT investments with financial goals, and drive seamless digital evolution across all business units."
+  ],
+  "bulletPointsHeading": "Services Include",
+  "bulletPoints": [
+    "Digital Transformation Consulting",
+    "Technology Roadmaps",
+    "Enterprise Architecture",
+    "IT Strategy",
+    "Process Optimization",
+    "IT Governance",
+    "Solution Assessment",
+    "Technology Advisory"
+  ],
+  "quoteText": "We integrate strategic technology roadmaps, rigorous enterprise architecture frameworks, and expert IT advisory to drive sustainable digital transformation and operational excellence.",
+  "bottomParagraphs": [
+    "Our expert consultants conduct comprehensive diagnostic audits of your current IT landscape to identify architectural bottlenecks, security gaps, and opportunities for cost optimization.",
+    "By designing scalable enterprise architectures and forward-looking technology strategies, we empower your leadership team to make informed, data-driven decisions that accelerate project delivery and enhance overall system resilience.",
+    "Beyond strategic planning, Skyreon provides ongoing governance models and implementation oversight to ensure your technology investments continuously deliver measurable business value and adapt smoothly to future industry trends."
+  ]
+}

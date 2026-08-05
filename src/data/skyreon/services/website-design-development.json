@@ -1,0 +1,26 @@
+{
+  "slug": "website-design-development",
+  "title": "Website Design & Development",
+  "heroDescription": "Most organizations today are digitally mature and expect their web platforms to drive innovation, accelerate growth, and use data analytics to predict relevant trends. It is a significant shift for enterprises, who have traditionally only focused on efficiently managing systems, improving service levels to users, and reducing operational costs.",
+  "heroImage": "/skyreon/service-details/web-design.png",
+  "introParagraphs": [
+    "Skyreon has tailored its services to help organizations in their expanded role as drivers of innovation. Our experienced technology experts help envision, plan, and execute the journey to IT and digital excellence for sustainable business advantages. We help you transform your web presence so that it is prepared for the newest challenges in the industry."
+  ],
+  "bulletPointsHeading": "Services Include",
+  "bulletPoints": [
+    "Corporate Website Development",
+    "Business & Enterprise Portals",
+    "Dynamic Websites",
+    "CMS Development",
+    "Landing Pages",
+    "UI/UX Design",
+    "Website Redesign",
+    "Website Maintenance"
+  ],
+  "quoteText": "We integrate perspectives, challenges, and requirements from both IT and business, addressing IT transformation and architecture as well as cloud computing and software engineering.",
+  "bottomParagraphs": [
+    "Our experts show you how to leverage modern web architectures and cloud-native solutions to optimize performance and reduce operational costs – not just how to build static pages. Learn how to exploit AI-driven features to automate workflows and minimize errors, reinforcing agility in software development.",
+    "Moreover, we advise business leaders on digital enablement and innovation by guiding them through cutting-edge technology trends such as data analytics & AI and cybersecurity to find the best approach for their organization.",
+    "Beyond generic IT know-how, we provide specialized expertise in business applications and custom web solutions offered by the leading software suppliers to keep your digital ecosystem ahead of the curve."
+  ]
+}

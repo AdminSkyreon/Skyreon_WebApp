@@ -1,0 +1,27 @@
+{
+  "id": "ai-agents",
+  "title": "Autonomous Enterprise AI Agents",
+  "heroDescription": "Multi-agent LLM orchestration engines automating complex operational workflows with real-time vector retrieval. We integrate intelligent automation to transform enterprise productivity.",
+  "heroImage": "/skyreon/tech/tech4.png",
+  "introParagraphs": [
+    "Modern businesses generate vast amounts of unstructured data. Our autonomous AI agent frameworks leverage advanced language models and vector databases to reason, retrieve context, and execute complex workflows independently.",
+    "We build custom AI pipelines that seamlessly integrate with your existing corporate software stack, automating repetitive tasks, customer communications, and data synthesis."
+  ],
+  "bulletPointsHeading": "AI Solutions",
+  "bulletPoints": [
+    "Multi-Agent LLM Orchestration",
+    "Real-Time Vector Database Retrieval",
+    "Custom Corporate Workflow Automation",
+    "Context-Aware Enterprise Chatbots",
+    "Automated Document Processing Pipelines",
+    "Secure API-Driven AI Integrations",
+    "Smart Data Summarization & Insights",
+    "Autonomous Decision-Support Modules"
+  ],
+  "quoteText": "We integrate intelligent multi-agent orchestration frameworks that streamline complex operational workflows and unlock real-time analytical value from corporate data.",
+  "bottomParagraphs": [
+    "Our AI modules are engineered to parse high volumes of internal documentation instantly, providing accurate context-aware answers to support internal teams and clients.",
+    "We deploy secure boundary controls around language model interactions, ensuring corporate data privacy and eliminating hallucinations through rigorous validation checks.",
+    "By automating routine operational loops, our AI architecture frees up valuable human capital to focus on high-level strategic growth and enterprise innovation."
+  ]
+}

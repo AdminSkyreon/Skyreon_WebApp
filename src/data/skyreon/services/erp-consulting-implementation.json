@@ -1,0 +1,28 @@
+{
+  "slug": "erp-consulting-implementation",
+  "title": "ERP Consulting & Implementation",
+  "heroDescription": "Transform business operations with integrated ERP solutions that improve visibility, collaboration, and operational efficiency.Managing multiple business processes can be challenging without the right system. Our Enterprise Resource Planning (ERP) solutions integrate your core business operations into a single, centralized platform, enabling greater efficiency, improved productivity, and data-driven decision-making.",
+  "heroImage": "/skyreon/service-details/erp-consulting.png",
+  "introParagraphs": [
+    "Modern enterprises rely heavily on integrated enterprise resource planning systems to streamline core business processes, unify data flows, and drive enterprise-wide agility. It is a critical transformation for organizations looking to scale operations beyond fragmented legacy setups."
+  ],
+  "bulletPointsHeading": "Services Include",
+  "bulletPoints": [
+    "ERP Consulting",
+    "ERP Implementation",
+    "IFS Cloud Implementation",
+    "Oracle Fusion Implementation",
+    "ERP Migration & Upgrade",
+    "ERP Customization",
+    "ERP Integration",
+    "ERP Managed Support",
+    "Business Process Consulting",
+    "User Training & Adoption"
+  ],
+  "quoteText": "We integrate enterprise perspectives, operational challenges, and technical requirements to deliver seamless ERP transformations that empower future-ready business models.",
+  "bottomParagraphs": [
+    "Our team guides you through every phase of the implementation lifecycle—from blueprinting and process re-engineering to rigorous testing and deployment—minimizing disruption to your daily business activities.",
+    "By leveraging advanced data analytics and automated reporting tools within your ERP framework, we empower leadership to make informed, real-time decisions based on accurate business insights.",
+    "Beyond technical deployment, Skyreon provides continuous performance monitoring, security hardening, and user enablement strategies to ensure your ERP ecosystem continuously evolves with market demands."
+  ]
+}

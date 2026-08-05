@@ -1,0 +1,22 @@
+{
+  "tagline": "LET'S CONNECT",
+  "heading": "It always starts with a conversation",
+  "subheading": "Fill out the form below and our technical experts will respond within 24 hours.",
+  "contactInfo": [
+    {
+      "id": "addr",
+      "title": "Office Address",
+      "value": "K-4, Kalinga Vihar, Bhubaneswar, Odisha"
+    },
+    {
+      "id": "phone",
+      "title": "Call Us",
+      "value": "+91 9318435136"
+    },
+    {
+      "id": "email",
+      "title": "Email Inquiry",
+      "value": "contact@skyreon.com"
+    }
+  ]
+}

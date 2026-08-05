@@ -1,0 +1,27 @@
+{
+  "slug": "cloud-solutions",
+  "title": "Cloud Solutions",
+  "heroDescription": "In an era where operational agility and scalability determine market leadership, migrating to and managing modern cloud infrastructure is essential. Skyreon delivers comprehensive Cloud Solutions designed to optimize your IT ecosystem, ensuring seamless cloud migration, resilient multi-cloud environments across Microsoft Azure and Amazon Web Services (AWS), and enterprise-grade security.",
+  "heroImage": "/skyreon/service-details/cloud-solutions.png",
+  "introParagraphs": [
+    "Legacy on-premise infrastructure often restricts organizational growth, introducing high maintenance costs, hardware bottlenecks, and vulnerability to unexpected system failures.",
+    "Our end-to-end cloud services empower your enterprise to modernize operations through strategic cloud consulting, automated backup and disaster recovery, and robust cloud infrastructure management."
+  ],
+  "bulletPointsHeading": "Key Cloud Offerings",
+  "bulletPoints": [
+    "Cloud Consulting",
+    "Cloud Migration",
+    "Microsoft Azure Services",
+    "Amazon Web Services (AWS)",
+    "Cloud Infrastructure Management",
+    "Backup & Disaster Recovery",
+    "High Availability Solutions",
+    "Cloud Security"
+  ],
+  "quoteText": "Unlock boundless scalability, superior performance, and ironclad security with future-proof cloud architectures tailored to your business goals.",
+  "bottomParagraphs": [
+    "Our certified cloud architects guide your organization through every phase of cloud migration—minimizing downtime, optimizing workload distribution, and maximizing cost-efficiency on platforms like AWS and Microsoft Azure.",
+    "We implement high-availability solutions alongside advanced backup and disaster recovery frameworks, safeguarding your mission-critical data against any potential disruption or security threat.",
+    "By continuously monitoring and securing your cloud infrastructure, Skyreon enables your internal teams to focus on core innovation while we maintain an optimized, high-performing cloud environment."
+  ]
+}

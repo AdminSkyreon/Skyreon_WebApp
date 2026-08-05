@@ -1,0 +1,70 @@
+{
+  "sectionTitle": "Get to know about Skyreon",
+  "items": [
+    {
+      "id": 1,
+      "tag": "WHO WE ARE",
+      "title": "Software & Cloud Engineering",
+      "subtitle": "High-throughput systems tailored for modern enterprise growth.",
+      "expandedText": "Skyreon delivers end-to-end software engineering, high-throughput cloud architectures, and modern web applications engineered for seamless performance.",
+      "points": [
+        "End-to-end custom software engineering & high-throughput cloud platforms.",
+        "Modern web applications engineered for seamless user experience.",
+        "Scalable digital architecture tailored for fast-growing enterprises."
+      ],
+      "image": "/skyreon/about/about1.png"
+    },
+    {
+      "id": 2,
+      "tag": "WHY CHOOSE US",
+      "title": "Engineered for Reliability",
+      "subtitle": "Combining database precision, cloud automation, and high uptime.",
+      "expandedText": "We combine rigorous SQL database architecture, automated CI/CD releases, and modern frontend practices to build secure, fault-tolerant applications.",
+      "points": [
+        "Rigorous SQL database architecture and high-performance querying.",
+        "Automated CI/CD pipelines ensuring zero-downtime releases.",
+        "Fault-tolerant systems designed to withstand intensive enterprise workloads."
+      ],
+      "image": "/skyreon/about/about2.png"
+    },
+    {
+      "id": 3,
+      "tag": "OUR PURPOSE",
+      "title": "Driving Enterprise Impact",
+      "subtitle": "Eliminating technical bottlenecks for growing startups and platforms.",
+      "expandedText": "Our purpose is to transform technical complexities into clean code and scalable infrastructure, directly driving measurable business ROI.",
+      "points": [
+        "Eliminating critical technical bottlenecks for modern startups.",
+        "Transforming complex workflows into clean, maintainable codebases.",
+        "Accelerating business ROI through optimized technical operations."
+      ],
+      "image": "/skyreon/about/about3.png"
+    },
+    {
+      "id": 4,
+      "tag": "OUR VISION",
+      "title": "Next-Gen Infrastructure",
+      "subtitle": "Architecting future-proof digital backbones for modern businesses.",
+      "expandedText": "To stand as the trusted global technology backbone for digital-first enterprises by pioneering cloud-first, serverless, and scalable tech frameworks.",
+      "points": [
+        "Pioneering cloud-first and serverless technical frameworks.",
+        "Building resilient digital backbones for next-gen market leaders.",
+        "Future-proofing enterprise systems against rapidly shifting tech trends."
+      ],
+      "image": "/skyreon/about/about4.png"
+    },
+    {
+      "id": 5,
+      "tag": "OUR MISSION",
+      "title": "Speed, Precision & Security",
+      "subtitle": "Bulletproof security, rapid iteration, and high availability.",
+      "expandedText": "Empowering organizations by engineering resilient microservices, optimized database engines, and zero-downtime deployment pipelines.",
+      "points": [
+        "Deploying bulletproof cybersecurity protocols across all layers.",
+        "Rapid iterative deployments without compromising system stability.",
+        "Optimized database engines ensuring maximum availability and speed."
+      ],
+      "image": "/skyreon/about/about5.png"
+    }
+  ]
+}

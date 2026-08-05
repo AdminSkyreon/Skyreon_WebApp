@@ -1,0 +1,27 @@
+{
+  "id": "flutter-mobile",
+  "title": "Flutter & Firebase Mobile Apps",
+  "heroDescription": "Ultra-fluid iOS and Android applications built with modern reactive state management and real-time Firestore synchronization. We bridge high-performance native rendering with agile cross-platform deployment.",
+  "heroImage": "/skyreon/tech/tech2.png",
+  "introParagraphs": [
+    "In today's mobile-first ecosystem, users expect instant responsiveness, offline capabilities, and seamless cross-platform syncing. Our Flutter mobile frameworks deliver native-grade performance from a single unified codebase.",
+    "Combined with robust Firebase backend infrastructure, our apps maintain real-time data binding, secure cloud functions, and scalable user authentication loops tailored for fast-growing enterprises."
+  ],
+  "bulletPointsHeading": "Mobile Solutions",
+  "bulletPoints": [
+    "Cross-Platform iOS & Android Apps",
+    "Real-time Firestore Data Synchronization",
+    "Reactive State Architecture (Bloc/Provider)",
+    "Secure Firebase Cloud Authentication",
+    "Offline Data Persistence & Caching",
+    "Push Notification Gateways",
+    "Google Play & App Store Compliance",
+    "High-Performance Custom UI Animations"
+  ],
+  "quoteText": "We combine the speed of Flutter with scalable Firebase architectures to deliver lightning-fast, reactive mobile experiences that engage users and scale effortlessly.",
+  "bottomParagraphs": [
+    "Our engineering team structures clean, modular code repositories that make feature expansions, maintenance, and future updates remarkably smooth and cost-effective.",
+    "We integrate secure cloud database consoles, handle app store policy guidelines, and resolve deployment roadblocks to ensure smooth publication and open-testing phases.",
+    "From intuitive user dashboards to heavy transactional mobile interfaces, we ensure pristine design fidelity across all mobile device screen resolutions."
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Blogs",
+    "slug": "blog"
+  },
+  {
+    "title": "FAQ",
+    "slug": "faq"
+  },
+  {
+    "title": "Support",
+    "slug": "support"
+  }
+]

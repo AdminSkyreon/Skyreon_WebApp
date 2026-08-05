@@ -1,0 +1,120 @@
+{
+  "featuredBlog": {
+    "id": "featured",
+    "slug": "enterprise-digital-transformation",
+    "title": "Unlocking Enterprise Growth Through Digital Transformation",
+    "excerpt": "Explore how modern organizations are leveraging next-gen technologies, cloud automation, and strategic workflows to scale faster in 2026.",
+    "category": "Strategy",
+    "heroImage": "/skyreon/resources/resource-augmentation.png",
+    "date": "March 08, 2026",
+    "readTime": "6 min read",
+    "author": {
+      "name": "Skyreon Leadership"
+    },
+    "quote": {
+      "text": "Digital transformation is not about adopting technology for the sake of it; it is about fundamentally shifting how value is delivered to customers through intelligence and speed.",
+      "authorName": "Satya Nadella",
+      "authorTitle": "CEO of Microsoft"
+    },
+    "content": [
+      {
+        "heading": "The Shift in Modern Enterprise",
+        "body": "Digital transformation is no longer just an option; it is a core survival strategy for businesses aiming to stay competitive in an aggressive digital economy. Companies that fail to modernize their legacy pipelines often find themselves struggling with operational silos and slower time-to-market."
+      },
+      {
+        "heading": "Leveraging Cloud Automation & Scalability",
+        "body": "Cloud-native architectures allow enterprises to scale up computational resources seamlessly during peak operational hours while cutting down costs during lean periods. Automated infrastructure provisioning ensures near-zero downtime and robust disaster recovery compliance."
+      },
+      {
+        "heading": "Empowering Workflows with Data-Driven Decisions",
+        "body": "Integrating advanced telemetry, real-time analytics, and automated reporting frameworks enables leadership teams to make razor-sharp strategic decisions. Transparency across cross-functional departments eliminates redundant tasks and accelerates overall corporate productivity."
+      }
+    ]
+  },
+  "allBlogs": [
+    {
+      "id": 1,
+      "slug": "secure-cloud-infrastructure",
+      "title": "Top Reasons to Switch to Secure Cloud-Based Infrastructure",
+      "excerpt": "Discover how transitioning your business infrastructure to secure cloud solutions enhances scalability, data protection, and overall workflow efficiency.",
+      "category": "Cloud",
+      "heroImage": "/skyreon/resources/cloud-infrastructure.png",
+      "date": "March 10, 2026",
+      "readTime": "5 min read",
+      "author": {
+        "name": "Skyreon Team"
+      },
+      "quote": {
+        "text": "There's no trade-off between security and cloud adoption. In fact, the cloud provides security capabilities that most organizations cannot afford on their own.",
+        "authorName": "Werner Vogels",
+        "authorTitle": "CTO of Amazon"
+      },
+      "content": [
+        {
+          "heading": "Introduction to Cloud Infrastructure",
+          "body": "Modern businesses require agile and reliable infrastructure to keep up with dynamic market demands. Traditional on-premise servers often lead to high maintenance overheads and scalability bottlenecks."
+        },
+        {
+          "heading": "Enhanced Data Security & Compliance",
+          "body": "Leading cloud providers incorporate multi-layered security protocols, automated threat detection, and advanced encryption standards that safeguard corporate assets much better than physical servers."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "essential-seo-strategies-2026",
+      "title": "Essential SEO Strategies to Rank Higher in 2026",
+      "excerpt": "Master the core search engine optimization techniques to boost your organic visibility, drive targeted traffic, and outrank competitors.",
+      "category": "SEO",
+      "heroImage": "/skyreon/resources/seo-strategy.png",
+      "date": "March 12, 2026",
+      "readTime": "4 min read",
+      "author": {
+        "name": "Arpita Tripathi"
+      },
+      "quote": {
+        "text": "SEO is not about gaming the system anymore; it's about best serving the user intent and delivering seamless digital experiences.",
+        "authorName": "Rand Fishkin",
+        "authorTitle": "Founder of SparkToro"
+      },
+      "content": [
+        {
+          "heading": "Understanding Modern Search Algorithms",
+          "body": "Search engines prioritize user experience, content depth, and technical performance more than ever before. Optimizing your core web vitals has become a mandatory step for ranking success."
+        },
+        {
+          "heading": "Content Depth & Intent Optimization",
+          "body": "Creating comprehensive content clusters around your core offerings establishes topical authority and drives consistent organic traffic over long periods."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "scalable-web-development-practices",
+      "title": "Best Practices for Scalable Web Application Development",
+      "excerpt": "Learn how to build high-performance web applications using modern frameworks, clean component structures, and robust state management.",
+      "category": "Development",
+      "heroImage": "/skyreon/resources/web-development.png",
+      "date": "March 15, 2026",
+      "readTime": "6 min read",
+      "author": {
+        "name": "Skyreon Engineering"
+      },
+      "quote": {
+        "text": "Simplicity is prerequisite for reliability. Building clean and decoupled code architectures is the only way applications survive massive scale.",
+        "authorName": "Danyel Fisher",
+        "authorTitle": "Principal Software Engineer"
+      },
+      "content": [
+        {
+          "heading": "Component-Driven Architecture",
+          "body": "Breaking down user interfaces into reusable components makes scaling and maintaining large codebases significantly easier across collaborative development teams."
+        },
+        {
+          "heading": "Optimizing Performance & State Management",
+          "body": "Employing efficient data caching strategies and minimizing unnecessary re-renders ensures lightning-fast loading speeds even under high user concurrency."
+        }
+      ]
+    }
+  ]
+}
