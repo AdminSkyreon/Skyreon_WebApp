@@ -5,6 +5,7 @@ import { ChevronLeft, ChevronRight, Plus, Minus } from 'lucide-react';
 
 // Data ko JSON file se import kar rahe hain
 import servicesDataJSON from '../data/skyreon/services.json';
+import { withBasePath } from '@/lib/paths';
 
 export default function Services() {
   const [activeCardId, setActiveCardId] = useState(null);
@@ -163,7 +164,7 @@ export default function Services() {
                 {/* Card Image Visual */}
                 <div className="relative z-10 mt-8 w-full h-[240px] sm:h-[280px] rounded-2xl overflow-hidden shadow-md transition-all duration-500 group-hover:scale-[1.02] group-hover:shadow-2xl">
                   <img 
-                    src={item.image} 
+                    src={withBasePath(item.image)} 
                     alt={item.title} 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />

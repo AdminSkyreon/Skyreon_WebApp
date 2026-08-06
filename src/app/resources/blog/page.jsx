@@ -6,6 +6,7 @@ import { Search, ArrowRight } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import blogData from '@/data/skyreon/resources/blogsData.json';
+import { withBasePath } from '@/lib/paths';
 
 export default function BlogsPage() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -57,7 +58,7 @@ export default function BlogsPage() {
         {!searchQuery && selectedCategory === 'All' && featuredBlog && (
           <div className="mb-16 bg-gray-50 border border-gray-100 rounded-3xl overflow-hidden shadow-sm grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="relative h-72 lg:h-96 w-full bg-gray-200">
-              <img src={featuredBlog.heroImage} alt={featuredBlog.title} className="w-full h-full object-cover" />
+              <img src={withBasePath(featuredBlog.heroImage)} alt={featuredBlog.title} className="w-full h-full object-cover" />
             </div>
             <div className="p-8 lg:p-12">
               <span className="inline-block px-3 py-1 bg-cyan-100 text-[#0083b0] text-xs font-bold rounded-full uppercase tracking-wider mb-4">
@@ -98,7 +99,7 @@ export default function BlogsPage() {
             <div key={blog.id} className="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
               <div>
                 <div className="relative h-48 w-full overflow-hidden bg-gray-100">
-                  <img src={blog.heroImage} alt={blog.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                  <img src={withBasePath(blog.heroImage)} alt={blog.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                   <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-3 py-1 text-xs font-semibold text-[#0083b0] rounded-full">
                     {blog.category}
                   </span>

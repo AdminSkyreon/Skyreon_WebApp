@@ -7,6 +7,7 @@ import { ArrowLeft, Calendar, Clock, User, Quote } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import blogData from '@/data/skyreon/resources/blogsData.json';
+import { withBasePath } from '@/lib/paths';
 
 export default function ResourceDetailPage() {
   const params = useParams();
@@ -65,7 +66,7 @@ export default function ResourceDetailPage() {
 
         {/* Hero Image (Cards aur Featured dono ke liye automatic kaam karega) */}
         <div className="rounded-3xl overflow-hidden shadow-lg mb-12 h-72 sm:h-96 w-full bg-gray-100">
-          <img src={blog.heroImage} alt={blog.title} className="w-full h-full object-cover" />
+          <img src={withBasePath(blog.heroImage)} alt={blog.title} className="w-full h-full object-cover" />
         </div>
 
         {/* Excerpt / Intro */}

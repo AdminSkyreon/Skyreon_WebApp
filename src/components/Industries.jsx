@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 import industriesData from '../data/skyreon/industries.json';
+import { withBasePath } from '@/lib/paths';
 
 export default function Industries() {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -101,7 +102,7 @@ export default function Industries() {
                 {item.image && (
                   <div className="absolute inset-0 z-0 overflow-hidden">
                     <img 
-                      src={item.image} 
+                      src={withBasePath(item.image)} 
                       alt={item.title} 
                       className="w-full h-full object-cover mix-blend-overlay opacity-30 group-hover:scale-105 transition-transform duration-700" 
                     />

@@ -7,6 +7,7 @@ import { Search } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import industriesData from '@/data/skyreon/industries.json';
+import { withBasePath } from '@/lib/paths';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 25 },
@@ -57,7 +58,7 @@ export default function IndustryDetailPage() {
             >
               <div className="rounded-xl overflow-hidden border border-slate-200/80 shadow-lg bg-slate-50 p-2">
                 <img 
-                  src={data.image} 
+                  src={withBasePath(data.image)} 
                   alt={data.title}
                   className="rounded-lg w-full h-[320px] object-cover object-center"
                 />

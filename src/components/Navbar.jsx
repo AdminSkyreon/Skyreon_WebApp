@@ -7,6 +7,7 @@ import navData from '@/data/skyreon/navbarServices.json';
 import productsNavData from '@/data/skyreon/navbarProducts.json';
 import navbarResources from '@/data/skyreon/navbarResources.json';
 import globalData from '@/data/skyreon/global.json';
+import { withBasePath } from '@/lib/paths';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,7 +71,7 @@ export default function Navbar() {
           <div className="flex flex-col items-center justify-center">
             {globalData.logoUrl && (
               <img
-                src={globalData.logoUrl}
+                src={withBasePath(globalData.logoUrl)}
                 alt={globalData.companyName || "Skyreon"}
                 className="w-56 sm:w-72 h-auto object-contain animate-pulse"
               />
@@ -109,14 +110,14 @@ export default function Navbar() {
             <div className="flex-shrink-0 relative w-44 sm:w-64 h-16 flex items-center justify-start pl-4 sm:pl-0">
               <Link href="/" className="absolute inset-0 flex items-center justify-start pl-3 sm:pl-0 focus:outline-none focus:ring-0">
                 <img 
-                  src={globalData.logoUrl} 
+                  src={withBasePath(globalData.logoUrl)} 
                   alt={globalData.companyName || "Skyreon"} 
                   className={`h-auto object-contain object-left transition-all duration-300 ${
                     isScrolled ? 'max-lg:opacity-0 max-lg:pointer-events-none max-lg:absolute max-lg:w-0' : 'w-48 sm:w-76 opacity-100'
                   }`}
                 />
                 <img 
-                  src={globalData.iconUrl || globalData.logoUrl} 
+                  src={withBasePath(globalData.iconUrl || globalData.logoUrl)} 
                   alt={globalData.companyName || "Skyreon"} 
                   className={`h-auto object-contain object-left transition-all duration-300 ${
                     isScrolled ? 'max-lg:w-10 sm:max-lg:w-12 max-lg:opacity-100 max-lg:ml-1 opacity-0 pointer-events-none absolute w-0' : 'opacity-0 pointer-events-none absolute w-0'

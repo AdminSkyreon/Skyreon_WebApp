@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Search } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { withBasePath } from '@/lib/paths';
 
 // Yeh aapki woh 8 nayi/final JSON files hongੀ jinka structure aapne share kiya hai
 import websiteDesignData from '@/data/skyreon/services/website-design-development.json';
@@ -62,7 +63,7 @@ export default function ServiceDetailPage() {
             
             <motion.div whileHover={{ scale: 1.02, rotateY: 3, rotateX: -3 }} transition={{ duration: 0.4 }} className="lg:col-span-5 perspective-1000">
               <div className="rounded-xl overflow-hidden border border-slate-200/80 shadow-lg bg-slate-50 p-2">
-                <img src={data?.heroImage} alt={data?.title} className="rounded-lg w-full h-[320px] object-cover" />
+                <img src={withBasePath(data?.heroImage)} alt={data?.title} className="rounded-lg w-full h-[320px] object-cover" />
               </div>
             </motion.div>
           </motion.div>

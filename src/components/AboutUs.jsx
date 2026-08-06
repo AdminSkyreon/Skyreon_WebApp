@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, Sparkles, ShieldCheck, Compass, Eye, Target, CheckCircle2 } from 'lucide-react';
 import aboutData from '@/data/skyreon/about.json';
+import { withBasePath } from '@/lib/paths';
 
 const iconMap = {
   1: Sparkles,
@@ -133,7 +134,7 @@ export default function AboutUs() {
                   <div className="md:col-span-5">
                     <div className="relative h-56 sm:h-64 w-full rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-white">
                       <img 
-                        src={activeItem.image || '/skyreon/about/about1.png'} 
+                        src={withBasePath(activeItem.image || '/skyreon/about/about1.png')} 
                         alt={activeItem.title || 'About Skyreon'} 
                         className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                         onError={(e) => {

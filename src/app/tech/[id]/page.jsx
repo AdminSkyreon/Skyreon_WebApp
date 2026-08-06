@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Search } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { withBasePath } from '@/lib/paths';
 
 import oracleSqlData from '@/data/skyreon/tech/oracle-sql.json';
 import flutterMobileData from '@/data/skyreon/tech/flutter-mobile.json';
@@ -64,7 +65,7 @@ export default function TechDetailPage() {
             >
               <div className="rounded-xl overflow-hidden border border-slate-200/80 shadow-lg bg-slate-50 p-2">
                 <img 
-                  src={data?.heroImage} 
+                  src={withBasePath(data?.heroImage)} 
                   alt={data?.title}
                   className="rounded-lg w-full h-[320px] object-cover object-center"
                 />

@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 
 // JSON Data Import
 import techDataJSON from '../data/skyreon/techStack.json';
+import { withBasePath } from '@/lib/paths';
 
 export default function TechStack() {
   const scrollRef = useRef(null);
@@ -120,7 +121,7 @@ export default function TechStack() {
               {/* Left Side Image */}
               <div className="md:col-span-5 relative overflow-hidden h-[200px] md:h-full bg-slate-100">
                 <img 
-                  src={item.image} 
+                  src={withBasePath(item.image)} 
                   alt={item.title}
                   draggable="false"
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 pointer-events-none"
