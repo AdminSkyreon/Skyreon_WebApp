@@ -1,0 +1,27 @@
+{
+  "id": "java-backend",
+  "title": "Java Microservices & APIs",
+  "heroDescription": "Robust REST API architectures, zero-trust security pipelines, and multi-tenant transaction logic built for heavy enterprise scale. We power backend systems designed for uncompromising stability.",
+  "heroImage": "/skyreon/tech/tech3.png",
+  "introParagraphs": [
+    "Enterprise applications require fault-tolerant backend foundations that can process millions of concurrent requests while maintaining strict data consistency and security compliance.",
+    "Our Java-based microservices architecture decouples complex business logic into independent, scalable services that communicate through encrypted, high-speed API channels."
+  ],
+  "bulletPointsHeading": "Backend Capabilities",
+  "bulletPoints": [
+    "Scalable Microservices Architecture",
+    "Secure RESTful API Development",
+    "Zero-Trust Security & Token Auth",
+    "Multi-Tenant Transaction Logic",
+    "High-Performance Spring Boot Framework",
+    "Optimized Server-Side Data Pipelines",
+    "Automated Error Handling & Logging",
+    "Enterprise Load Balancing Integration"
+  ],
+  "quoteText": "We architect high-performance Java microservices that guarantee secure data transmission, fault isolation, and effortless horizontal scaling for enterprise systems.",
+  "bottomParagraphs": [
+    "Our backend solutions are designed to isolate system faults, ensuring that an issue in one module never disrupts the overall availability of your core enterprise platform.",
+    "We implement stringent security protocols, token-based authorization filters, and encrypted data routing to safeguard sensitive corporate channels against threats.",
+    "Through automated build pipelines and structured performance monitoring, we ensure your server ecosystem runs reliably under peak operational demands."
+  ]
+}

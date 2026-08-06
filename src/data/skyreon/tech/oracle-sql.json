@@ -1,0 +1,27 @@
+{
+  "id": "oracle-sql",
+  "title": "Oracle & SQL Database Infrastructure",
+  "heroDescription": "High-throughput database clusters engineered for sub-millisecond query execution, dynamic TNS failover, and zero data loss. We architect resilient data layers that power core enterprise systems with maximum uptime and security.",
+  "heroImage": "/skyreon/tech/tech1.png",
+  "introParagraphs": [
+    "Mission-critical enterprise applications demand underlying database architectures capable of handling massive concurrency, complex transactional logs, and lightning-fast query retrieval speeds without bottlenecking.",
+    "Our Oracle and SQL database solutions encompass comprehensive database design, performance tuning, automated failover configurations, and dynamic local hostname listener setups to prevent connection drops."
+  ],
+  "bulletPointsHeading": "Infrastructure Capabilities",
+  "bulletPoints": [
+    "Sub-millisecond Query Optimization",
+    "Dynamic TNS & Hostname Failover",
+    "Automated Zero-Data-Loss Replication",
+    "Advanced PL/SQL Package Development",
+    "Database Security & Role-Based Access",
+    "Real-Time Performance Tuning",
+    "Enterprise Backup & Recovery Frameworks",
+    "High-Concurrency Connection Pooling"
+  ],
+  "quoteText": "We engineer robust database clusters designed for high-availability, seamless scaling, and absolute data integrity under heavy corporate workloads.",
+  "bottomParagraphs": [
+    "By configuring optimized storage indexes and fine-tuning execution plans, we drastically reduce database latency and accelerate application response times across the board.",
+    "Our automated replication and failover protocols ensure your corporate data remains completely secure, synchronized, and accessible even during unexpected server downtimes.",
+    "We also establish rigorous security layers and access controls, protecting sensitive enterprise information from unauthorized breaches while ensuring compliance with data standards."
+  ]
+}

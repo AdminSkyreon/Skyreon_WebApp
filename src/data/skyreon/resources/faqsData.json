@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What services does Skyreon offer?",
+    "answer": "We specialize in custom software development, cloud infrastructure management, web/mobile app development, and resource augmentation for enterprises."
+  },
+  {
+    "question": "What happens to my data if I cancel our subscription or service?",
+    "answer": "Your data remains strictly confidential. Upon cancellation, we provide a secure export window for your data, and then permanently purge it from our active servers according to standard data security protocols."
+  },
+  {
+    "question": "Where is my company data stored?",
+    "answer": "All data is hosted on enterprise-grade secure cloud infrastructure (such as AWS and Google Cloud) with high-end encryption both at rest and in transit."
+  },
+  {
+    "question": "What is included in your initial technical consultation or free trial?",
+    "answer": "Our initial consultation includes a comprehensive requirement analysis, system architecture review, and a strategic roadmap proposal tailored to your business goals."
+  },
+  {
+    "question": "How do you handle software maintenance and post-launch support?",
+    "answer": "We provide 24/7 system monitoring, performance optimization, regular security patches, and dedicated SLA-based technical support post-launch."
+  },
+  {
+    "question": "What is your development methodology?",
+    "answer": "We follow Agile and Scrum methodologies, ensuring continuous client feedback, iterative sprint releases, and transparent progress tracking."
+  },
+  {
+    "question": "How do you ensure the security of proprietary source code?",
+    "answer": "We sign strict Non-Disclosure Agreements (NDAs), enforce multi-factor authentication (MFA), role-based access control, and secure version control workflows."
+  },
+  {
+    "question": "Can your team integrate custom software with our existing legacy systems?",
+    "answer": "Yes, our engineers specialize in API development, middleware integration, and seamless migration from legacy systems to modern cloud environments."
+  },
+  {
+    "question": "What is the typical timeline for a custom software project?",
+    "answer": "Timelines vary based on scope and complexity, ranging from 4 to 12 weeks for MVPs, while larger enterprise transformations are broken down into milestone phases."
+  },
+  {
+    "question": "How does Skyreon price its software development projects?",
+    "answer": "We offer flexible pricing models including Fixed-Price for well-defined scopes and Time & Materials (Dedicated Resource model) for evolving project requirements."
+  },
+  {
+    "question": "Do you offer resource augmentation or hire dedicated developers?",
+    "answer": "Yes, you can hire pre-vetted full-stack developers, UI/UX designers, QA engineers, and database administrators who seamlessly integrate with your in-house team."
+  },
+  {
+    "question": "What currency or payment methods are your services billed in?",
+    "answer": "We accept major international wire transfers, credit/debit cards, and secure digital invoices billed primarily in USD, INR, or standard corporate currencies."
+  },
+  {
+    "question": "What if our team faces technical downtime or internet disruption during project execution?",
+    "answer": "Our cloud environments and version control setups are fully redundant and cloud-hosted, ensuring your code and staging servers remain completely safe and accessible from anywhere."
+  }
+]

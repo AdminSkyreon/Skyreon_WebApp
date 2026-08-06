@@ -1,0 +1,27 @@
+{
+  "slug": "business-intelligence-analytics",
+  "title": "Business Intelligence & Analytics",
+  "heroDescription": "Data is the cornerstone of modern strategic decision-making. Skyreon empowers organizations with advanced Business Intelligence (BI) and analytics solutions, transforming raw corporate data into actionable insights, interactive dashboards, and predictive models that drive business growth.",
+  "heroImage": "/skyreon/service-details/business-intelligence-analytics.png",
+  "introParagraphs": [
+    "Organizations often collect vast amounts of data but struggle to extract meaningful insights due to siloed systems and a lack of advanced analytical tools.",
+    "Our BI frameworks unify your data sources, providing deep visibility into key performance indicators (KPIs) and operational metrics to support informed executive decisions."
+  ],
+  "bulletPointsHeading": "Services Include",
+  "bulletPoints": [
+    "Business Intelligence Dashboard Development",
+    "Data Warehousing & Integration",
+    "Predictive Analytics & Forecasting",
+    "Real-time Reporting Solutions",
+    "Data Cleansing & Transformation",
+    "Performance Management KPIs",
+    "Customized Data Visualization",
+    "Big Data Analytics Consulting"
+  ],
+  "quoteText": "Turn complex data into clear, actionable intelligence that guides your strategic vision and optimizes business operations.",
+  "bottomParagraphs": [
+    "We help you implement robust data architectures and visualization tools that make critical metrics accessible across your organization instantly.",
+    "Our analytics experts identify trends, patterns, and operational bottlenecks, enabling your team to proactively address challenges and seize new market opportunities.",
+    "Partner with Skyreon to build a data-driven culture that maximizes transparency, efficiency, and competitive advantage."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "tagline": "INDUSTRIES & SECTORS",
+  "sectionTitle": "Enterprise Industries",
+  "items": [
+    {
+      "id": "manufacturing",
+      "type": "brand-blue",
+      "category": "MANUFACTURING",
+      "title": "Optimizing Production Lines & Supply Chain",
+      "description": "Optimizing production lines, inventory management, and supply chain with data-driven precision.",
+      "image": "/skyreon/solutions/sol1.png",
+      "heroDescription": "Transforming industrial manufacturing ecosystems through high-precision telemetry, inventory predictive modeling, and automated supply chain tracking.",
+      "introParagraphs": [
+        "Modern manufacturing environments demand zero downtime and absolute supply chain visibility. Our solutions integrate operational technology with advanced cloud architecture to streamline factory floor execution.",
+        "We empower engineering leaders to eliminate bottlenecks, forecast material shortages, and accelerate throughput while maintaining strict safety and compliance standards."
+      ],
+      "bulletPointsHeading": "Manufacturing Capabilities",
+      "bulletPoints": [
+        "Real-time production line telemetry and monitoring",
+        "AI-driven predictive inventory and stock replenishment",
+        "Automated vendor and logistics tracking pipelines",
+        "Industrial IoT device telemetry integration"
+      ],
+      "quoteText": "We bridge physical factory floors with digital intelligence, delivering reliable and scalable manufacturing control systems.",
+      "bottomParagraphs": [
+        "By replacing legacy paper-based reporting with reactive digital twins, our systems provide leadership with absolute clarity over multi-plant operations.",
+        "Scalability and safety remain at the core of our deployment lifecycle, ensuring seamless integration with existing enterprise resource planning software."
+      ]
+    },
+    {
+      "id": "aerospace-defence",
+      "type": "dark-navy",
+      "category": "AEROSPACE & DEFENCE",
+      "title": "High-Security ERP & Mission-Critical Operations",
+      "description": "High-security ERP systems designed for complex, mission-critical operations and compliance.",
+      "image": "/skyreon/solutions/sol2.png",
+      "heroDescription": "Securing sovereign airspace and defence logistics with ultra-secure, tamper-proof enterprise systems and real-time telemetry.",
+      "introParagraphs": [
+        "Defence and aerospace sectors require uncompromising security architectures, strict compliance protocols, and resilient data processing capabilities.",
+        "Our custom deployments ensure zero data leakage while synchronizing classified operational data across dispersed command nodes."
+      ],
+      "bulletPointsHeading": "Defence Capabilities",
+      "bulletPoints": [
+        "High-security classified ERP architecture",
+        "Mission-critical failover systems",
+        "Strict regulatory compliance and audit trails",
+        "Encrypted multi-node telemetry synchronization"
+      ],
+      "quoteText": "Precision and uncompromising security are paramount when managing mission-critical aerospace infrastructure.",
+      "bottomParagraphs": [
+        "Our engineering teams work under rigorous clearance guidelines to deliver robust software solutions built for extreme environments."
+      ]
+    },
+    {
+      "id": "energy-utilities",
+      "type": "light-grey",
+      "category": "ENERGY UTILITIES & RESOURCES",
+      "title": "Smart Technology & Sustainable Energy Assets",
+      "description": "Smart technology for managing resource distribution, infrastructure, and sustainable energy assets.",
+      "image": "/skyreon/solutions/sol3.png",
+      "heroDescription": "Optimizing power generation grids, resource allocation, and smart utility distribution through advanced analytics and IoT monitoring.",
+      "introParagraphs": [
+        "Energy and utility networks face constant pressure to maximize efficiency, integrate renewable sources, and reduce transmission losses.",
+        "Our digital platforms provide real-time grid visibility and automated load balancing for sustainable asset management."
+      ],
+      "bulletPointsHeading": "Energy Solutions",
+      "bulletPoints": [
+        "Smart grid telemetry and distribution tracking",
+        "Renewable asset performance analytics",
+        "Automated resource forecasting and load balancing",
+        "Environmental compliance and reporting pipelines"
+      ],
+      "quoteText": "Driving sustainable resource distribution through intelligent automation and real-time grid telemetry.",
+      "bottomParagraphs": [
+        "We help energy providers transition toward modern, data-driven grid operations with robust fault detection mechanisms."
+      ]
+    },
+    {
+      "id": "construction-engineering",
+      "type": "outline-white",
+      "category": "CONSTRUCTION & ENGINEERING",
+      "title": "Real-time Project Tracking & Cost Control",
+      "description": "Real-time project tracking, cost control, and site operation streamlining for large-scale projects.",
+      "image": "/skyreon/solutions/sol4.png",
+      "heroDescription": "Streamlining large-scale civil and industrial engineering workflows with integrated project tracking, budgeting, and site safety management.",
+      "introParagraphs": [
+        "Construction projects involve complex multi-vendor supply chains, strict timelines, and heavy machinery coordination.",
+        "Our software solutions bring unified oversight to site operations, preventing cost overruns and safety hazards."
+      ],
+      "bulletPointsHeading": "Construction Capabilities",
+      "bulletPoints": [
+        "Real-time milestone tracking and progress reporting",
+        "Automated material cost control and budgeting",
+        "Field workforce synchronization and safety tracking",
+        "Subcontractor workflow management portals"
+      ],
+      "quoteText": "Bringing digital precision and total transparency to complex, multi-phase engineering projects.",
+      "bottomParagraphs": [
+        "From foundation to final handover, our systems ensure projects stay on schedule and within budget constraints."
+      ]
+    },
+    {
+      "id": "service-management",
+      "type": "brand-blue",
+      "category": "SERVICE MANAGEMENT",
+      "title": "Automated Workflows & Field Service Optimization",
+      "description": "Automated service workflows and field service optimization to enhance customer satisfaction.",
+      "image": "/skyreon/solutions/sol5.png",
+      "heroDescription": "Accelerating service delivery lifecycles with intelligent ticket routing, automated dispatching, and SLA compliance monitoring.",
+      "introParagraphs": [
+        "Service-oriented businesses rely on swift response times and meticulous tracking of customer requests to maintain high retention.",
+        "Our intelligent dispatch and workflow engines reduce resolution times and optimize field technician routing."
+      ],
+      "bulletPointsHeading": "Management Capabilities",
+      "bulletPoints": [
+        "AI-powered ticket categorization and automated routing",
+        "Field service technician GPS tracking and scheduling",
+        "SLA monitoring and escalation workflows",
+        "Customer self-service portals and analytics dashboards"
+      ],
+      "quoteText": "Optimizing service delivery networks to maximize customer satisfaction and operational speed.",
+      "bottomParagraphs": [
+        "Empower your support staff with automated tools that eliminate administrative overhead and manual friction."
+      ]
+    },
+    {
+      "id": "healthcare",
+      "type": "dark-navy",
+      "category": "HEALTHCARE",
+      "title": "Secure Digital Transformation & Hospital Logistics",
+      "description": "Secure digital transformation for hospital logistics, patient data, and pharmaceutical management.",
+      "image": "/skyreon/solutions/sol6.png",
+      "heroDescription": "Modernizing healthcare ecosystems with HIPAA-compliant patient management, secure clinical data exchange, and supply chain tracking.",
+      "introParagraphs": [
+        "Healthcare institutions require uncompromising data security, seamless interoperability, and precise inventory control for medical supplies.",
+        "Our digital platforms streamline hospital administration while safeguarding sensitive patient records."
+      ],
+      "bulletPointsHeading": "Healthcare Capabilities",
+      "bulletPoints": [
+        "HIPAA-compliant secure patient data management",
+        "Pharmaceutical inventory and cold-chain tracking",
+        "Hospital workflow and staff scheduling optimization",
+        "Encrypted clinical communications middleware"
+      ],
+      "quoteText": "Safeguarding patient care standards through secure, resilient, and compliant digital health infrastructure.",
+      "bottomParagraphs": [
+        "We build dependable digital systems that allow medical professionals to focus entirely on patient wellbeing."
+      ]
+    }
+  ]
+}

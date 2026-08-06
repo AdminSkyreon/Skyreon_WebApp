@@ -1,0 +1,44 @@
+{
+  "servicesMenu": [
+    {
+      "title": "Website & Software Development",
+      "slug": "website-design-development",
+      "category": "Development"
+    },
+    {
+      "title": "IT Infrastructure & DevOps Services",
+      "slug": "infrastructure-management-services",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Technology Consulting & Resource Augmentation",
+      "slug": "it-consulting",
+      "category": "Consulting"
+    },
+    {
+      "title": "Digital Marketing",
+      "slug": "digital-marketing",
+      "category": "Marketing"
+    },
+    {
+      "title": "Business Intelligence & Analytics",
+      "slug": "business-intelligence-analytics",
+      "category": "Analytics"
+    },
+    {
+      "title": "Quality Assurance & Testing",
+      "slug": "quality-assurance-testing",
+      "category": "Testing"
+    },
+    {
+      "title": "Cloud, Infrastructure & Security",
+      "slug": "cloud-solutions",
+      "category": "Cloud"
+    },
+    {
+      "title": "Artificial Intelligence & Automation",
+      "slug": "artificial-intelligence-automation",
+      "category": "AI & Automation"
+    }
+  ]
+}

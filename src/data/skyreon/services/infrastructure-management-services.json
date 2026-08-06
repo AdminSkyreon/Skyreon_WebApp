@@ -1,0 +1,26 @@
+{
+  "slug": "infrastructure-management-services",
+  "title": "IT Infrastructure & DevOps Services",
+  "heroDescription": "Modern enterprises rely heavily on resilient, scalable, and automated IT infrastructure and DevOps pipelines to maintain operational continuity, enhance deployment speed, and reduce system downtime. It is a critical shift for businesses aiming to bridge the gap between development and operations for seamless execution.",
+  "heroImage": "/skyreon/service-details/infrastructure.png",
+  "introParagraphs": [
+    "Skyreon helps organizations build, scale, and manage robust IT infrastructures and automated deployment workflows. Our experts ensure your systems are high-performing, secure, and fully equipped to handle modern enterprise workloads without friction."
+  ],
+  "bulletPointsHeading": "Services Include",
+  "bulletPoints": [
+    "IT Infrastructure Management",
+    "DevOps Services & CI/CD Pipelines",
+    "Database Services & Administration",
+    "Server Monitoring & Optimization",
+    "Containerization & Orchestration",
+    "Infrastructure Automation (IaC)",
+    "System Reliability & High Availability",
+    "Disaster Recovery & Backup Setup"
+  ],
+  "quoteText": "We integrate advanced automation and robust infrastructure frameworks to ensure your technical operations run smoothly, securely, and at peak performance.",
+  "bottomParagraphs": [
+    "Our engineers guide you through optimizing your local and cloud-based resources, minimizing bottlenecks, and establishing continuous deployment pipelines that accelerate your software releases.",
+    "We also handle database management and server configurations to secure your data and protect your corporate digital assets against unexpected failures.",
+    "Partner with Skyreon to transform your IT backbone into a high-speed, secure, and resilient engine for continuous corporate growth."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "brand": {
+    "title": "SKYREON",
+    "description": "Empowering global enterprises with modern AI agents, high-throughput SQL architecture, and scalable digital solutions."
+  },
+  "socialLinks": [
+    { "platform": "linkedin", "url": "https://linkedin.com" },
+    { "platform": "twitter", "url": "https://twitter.com" },
+    { "platform": "github", "url": "https://github.com" }
+  ],
+  "navigationHeading": "Navigation",
+  "navigationLinks": [
+    { "label": "Services", "href": "/#services" },
+    { "label": "Solutions", "href": "/#solutions" },
+    { "label": "Tech Stack", "href": "/#tech-stack" },
+    { "label": "Insights", "href": "/#insights" },
+    { "label": "About Us", "href": "/#about-us" }
+  ],
+  "supportHeading": "Support",
+  "supportLinks": [
+    { "label": "Privacy Policy", "href": "#" },
+    { "label": "Terms of Service", "href": "#" },
+    { "label": "Security Audit", "href": "#" },
+    { "label": "Contact Support", "href": "/#contact" }
+  ],
+  "contactHeading": "Connect",
+  "contactInfo": {
+    "location": "K-4, Kalinga Vihar, Bhubaneswar, Odisha",
+    "email": "contact@skyreon.com",
+    "phone": "+91 9318435136"
+  },
+  "copyrightText": "Skyreon All Rights Reserved"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "migration-tool",
+  "title": "Migration Tool",
+  "heroDescription": "Automate and secure your enterprise database and cloud migrations with zero data loss and minimal downtime.",
+  "heroImage": "/skyreon/product-details/cloud-solutions.png",
+  "introParagraphs": [
+    "Our advanced migration tool simplifies complex data transfers across disparate cloud environments and database architectures.",
+    "Designed for enterprise-grade reliability, it ensures your sensitive data moves securely and accurately."
+  ],
+  "bulletPointsHeading": "Key Capabilities of Migration Tool",
+  "bulletPoints": [
+    "Automated Schema Mapping & Data Validation",
+    "Zero-Downtime Live Migration Architecture",
+    "Comprehensive Error Logging & Audit Trails",
+    "Support for Multi-Cloud & Hybrid Environments"
+  ],
+  "quoteText": "Accelerate your digital transition safely and efficiently with automated migration workflows.",
+  "bottomParagraphs": [
+    "Minimize technical risks and human errors during large-scale data transitions with our trusted enterprise tool.",
+    "Our solution guides your engineering team through every stage of the migration lifecycle."
+  ]
+}

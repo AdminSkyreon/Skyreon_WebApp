@@ -1,0 +1,27 @@
+{
+  "slug": "cloud-solutions",
+  "title": "Cloud, Infrastructure & Security",
+  "heroDescription": "Modern enterprises require resilient cloud environments, scalable architectures, robust database infrastructure, and ironclad cybersecurity measures to safeguard critical assets and ensure uninterrupted digital operations. Skyreon delivers end-to-end cloud solutions, advanced enterprise resource planning (ERP) implementations, and comprehensive database management frameworks.",
+  "heroImage": "/skyreon/service-details/cloud-solutions.png",
+  "introParagraphs": [
+    "Transitioning to the cloud, managing enterprise-grade databases, and modernizing infrastructure can dramatically improve operational agility, but it also introduces complex security and management challenges.",
+    "Our experts architect secure, scalable cloud ecosystems and integrate enterprise applications like ERP systems and high-performance databases to streamline your core business processes safely."
+  ],
+  "bulletPointsHeading": "Services Include",
+  "bulletPoints": [
+    "Cloud Migration & Architecture (AWS, Azure, GCP)",
+    "Enterprise Resource Planning (ERP) Implementation",
+    "Database Infrastructure & Optimization",
+    "Cybersecurity Auditing & Risk Management",
+    "Identity & Access Management (IAM)",
+    "Cloud Security & Compliance",
+    "Multi-Cloud Management",
+    "Disaster Recovery & Data Backup Solutions"
+  ],
+  "quoteText": "Secure your enterprise data, optimize your database infrastructure, and scale operations effortlessly with advanced cloud architectures and proactive cybersecurity frameworks.",
+  "bottomParagraphs": [
+    "We help you design and deploy cost-effective cloud solutions while implementing multi-layered security controls to protect your business against evolving cyber threats.",
+    "Our enterprise application integrations and database optimization strategies ensure smooth data flow across departments, increasing administrative efficiency and organization-wide productivity.",
+    "Partner with Skyreon to future-proof your infrastructure with secure, scalable, and high-performance cloud ecosystems."
+  ]
+}

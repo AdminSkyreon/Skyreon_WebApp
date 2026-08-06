@@ -1,0 +1,30 @@
+{
+  "category": "Technical Capabilities",
+  "sectionTitle": "The Architecture",
+  "items": [
+    {
+      "id": "oracle-sql",
+      "title": "Oracle & SQL Database Infrastructure",
+      "subtitle": "High-throughput database clusters engineered for sub-millisecond query execution, failover dynamic TNS, and zero data loss.",
+      "image": "/skyreon/tech/tech1.png"
+    },
+    {
+      "id": "flutter-mobile",
+      "title": "Flutter & Firebase Mobile Apps",
+      "subtitle": "Ultra-fluid iOS and Android applications with real-time Firestore synchronization and dynamic reactive state architecture.",
+      "image": "/skyreon/tech/tech2.png"
+    },
+    {
+      "id": "java-backend",
+      "title": "Java Microservices & APIs",
+      "subtitle": "Robust REST API architectures, zero-trust security pipelines, and multi-tenant transaction logic built for enterprise scale.",
+      "image": "/skyreon/tech/tech3.png"
+    },
+    {
+      "id": "ai-agents",
+      "title": "Autonomous Enterprise AI Agents",
+      "subtitle": "Multi-agent LLM orchestration engines automating complex operational loops with real-time vector retrieval.",
+      "image": "/skyreon/tech/tech4.png"
+    }
+  ]
+}
