@@ -45,7 +45,7 @@ export default function Industries() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-xs font-semibold text-red-400 uppercase tracking-[0.25em] mb-2">
+            <p className="text-xs font-semibold text-blue-400 uppercase tracking-[0.25em] mb-2">
               {industriesData.tagline || "INDUSTRIES & SECTORS"}
             </p>
             <h2 className="text-4xl sm:text-6xl font-bold tracking-tight text-slate-900">

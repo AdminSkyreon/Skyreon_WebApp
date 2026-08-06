@@ -1,84 +1,44 @@
 {
   "servicesMenu": [
     {
-      "title": "Website Design & Development",
-      "slug": "website-design-development"
+      "title": "Website & Software Development",
+      "slug": "website-design-development",
+      "category": "Development"
     },
     {
-      "title": "E-Commerce Development",
-      "slug": "ecommerce-development"
+      "title": "IT Infrastructure & DevOps Services",
+      "slug": "infrastructure-management-services",
+      "category": "Infrastructure"
     },
     {
-      "title": "Mobile Application Development",
-      "slug": "mobile-application-development"
-    },
-    {
-      "title": "ERP Consulting & Implementation",
-      "slug": "erp-consulting-implementation"
-    },
-    {
-      "title": "Software Product Engineering",
-      "slug": "software-product-engineering"
-    },
-    {
-      "title": "Cloud Solutions",
-      "slug": "cloud-solutions"
-    },
-    {
-      "title": "Infrastructure Management Services",
-      "slug": "infrastructure-management-services"
-    },
-    {
-      "title": "DevOps Services",
-      "slug": "devops-services"
-    },
-    {
-      "title": "Database Services",
-      "slug": "database-services"
+      "title": "Technology Consulting & Resource Augmentation",
+      "slug": "it-consulting",
+      "category": "Consulting"
     },
     {
       "title": "Digital Marketing",
-      "slug": "digital-marketing"
-    },
-    {
-      "title": "Social Media Management",
-      "slug": "social-media-management"
-    },
-    {
-      "title": "Branding & Creative Services",
-      "slug": "branding-creative-services"
-    },
-    {
-      "title": "Search Engine Optimization (SEO)",
-      "slug": "search-engine-optimization"
-    },
-    {
-      "title": "Content Management Solutions",
-      "slug": "content-management-solutions"
-    },
-    {
-      "title": "UI/UX Design",
-      "slug": "ui-ux-design"
-    },
-    {
-      "title": "Artificial Intelligence & Automation",
-      "slug": "artificial-intelligence-automation"
+      "slug": "digital-marketing",
+      "category": "Marketing"
     },
     {
       "title": "Business Intelligence & Analytics",
-      "slug": "business-intelligence-analytics"
+      "slug": "business-intelligence-analytics",
+      "category": "Analytics"
     },
     {
       "title": "Quality Assurance & Testing",
-      "slug": "quality-assurance-testing"
+      "slug": "quality-assurance-testing",
+      "category": "Testing"
     },
     {
-      "title": "IT Consulting",
-      "slug": "it-consulting"
+      "title": "Cloud, Infrastructure & Security",
+      "slug": "cloud-solutions",
+      "category": "Cloud"
     },
     {
-      "title": "Resource Augmentation",
-      "slug": "resource-augmentation"
+      "title": "Artificial Intelligence & Automation",
+      "slug": "artificial-intelligence-automation",
+      "category": "AI & Automation"
     }
   ]
 }

@@ -46,7 +46,7 @@ export default function ContactForm() {
           transition={{ duration: 0.5 }}
           className="mb-14 text-left"
         >
-          <p className="text-xs font-bold text-[#ff4d5a] uppercase tracking-[0.25em] mb-2">
+          <p className="text-xs font-bold text-blue-400 uppercase tracking-[0.25em] mb-2">
             {contactData.tagline}
           </p>
           <h2 className="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight">
@@ -73,7 +73,7 @@ export default function ContactForm() {
                   className="p-6 rounded-2xl bg-slate-50/60 border border-slate-200/60 flex items-start gap-5 hover:border-slate-300 transition-colors"
                 >
                   <div className="w-12 h-12 rounded-xl bg-slate-200/70 text-slate-700 flex items-center justify-center shrink-0">
-                    <Icon className="w-5 h-5 text-[#ff4d5a]" />
+                    <Icon className="w-5 h-5 text-blue-400" />
                   </div>
                   <div>
                     <h4 className="text-base font-bold text-slate-900 mb-1">{info.title}</h4>
@@ -188,13 +188,13 @@ export default function ContactForm() {
                 />
               </div>
 
-              {/* Exact Show More Coral Red Button Style */}
+              {/* Updated Blue Button Style */}
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.96 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 type="submit"
-                className="inline-flex items-center justify-center gap-3 bg-[#ff4d5a] hover:bg-[#e03e4b] active:bg-[#c9323f] text-white font-semibold px-9 py-3.5 rounded-xl transition-all duration-300 text-sm sm:text-base cursor-pointer shadow-lg shadow-[#ff4d5a]/25 hover:shadow-xl hover:shadow-[#ff4d5a]/35 tracking-wide"
+                className="inline-flex items-center justify-center gap-3 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white font-semibold px-9 py-3.5 rounded-xl transition-all duration-300 text-sm sm:text-base cursor-pointer shadow-lg shadow-blue-600/25 hover:shadow-xl hover:shadow-blue-600/35 tracking-wide"
               >
                 <span>Send Message</span>
                 <Send className="w-4 h-4 text-white" />

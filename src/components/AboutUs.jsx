@@ -33,7 +33,7 @@ export default function AboutUs() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
-            className="text-xs font-bold text-red-400 uppercase tracking-[0.25em] mb-3"
+            className="text-xs font-bold text-blue-400 uppercase tracking-[0.25em] mb-3"
           >
             {aboutData?.sectionTitle || 'GET TO KNOW ABOUT SKYREON'}
           </motion.p>

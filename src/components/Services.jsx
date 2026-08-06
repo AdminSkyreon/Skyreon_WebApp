@@ -68,7 +68,7 @@ export default function Services() {
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            <p className="text-xs font-semibold text-red-400 uppercase tracking-[0.2em] mb-2">Capabilities</p>
+            <p className="text-xs font-semibold text-blue-400 uppercase tracking-[0.2em] mb-2">Capabilities</p>
             <h2 className="text-4xl sm:text-6xl font-semibold tracking-tight text-slate-900">
               {sectionTitle}
             </h2>
@@ -124,7 +124,7 @@ export default function Services() {
               >
                 {/* Text Content */}
                 <div className="text-center max-w-lg mx-auto z-10 pt-2">
-                  <span className="text-[11px] font-semibold tracking-widest uppercase opacity-60 mb-2 block text-red-500">
+                  <span className="text-[11px] font-semibold tracking-widest uppercase opacity-60 mb-2 block text-blue-500">
                     {item.tag}
                   </span>
                   

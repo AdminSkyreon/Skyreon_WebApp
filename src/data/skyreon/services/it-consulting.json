@@ -1,27 +1,27 @@
 {
   "slug": "it-consulting",
-  "title": "IT Consulting Services",
-  "heroDescription": "In an era of rapid digital disruption and evolving market complexities, aligning technology infrastructure with core business objectives is paramount for sustainable competitive advantage and long-term enterprise growth. Skyreon delivers enterprise-grade IT Consulting services designed to architect resilient digital transformation strategies, optimize mission-critical workflows, and future-proof corporate technology ecosystems. We bridge the gap between visionary business leadership and advanced technical execution to ensure maximum operational efficiency, stringent governance, and high-impact ROI for your organization.",
+  "title": "Technology Consulting & Resource Augmentation",
+  "heroDescription": "Navigating complex technology transformations requires deep domain expertise and strategic guidance. Skyreon combines high-level IT consulting with flexible resource augmentation to help you design future-proof technology roadmaps and rapidly scale your engineering capacity with vetted experts.",
   "heroImage": "/skyreon/service-details/it-consulting.png",
   "introParagraphs": [
-    "Modern enterprises face unprecedented challenges in managing legacy systems while simultaneously adopting cutting-edge innovations. Navigating this delicate balance requires strategic foresight, robust architectural frameworks, and expert guidance to avoid costly missteps and operational friction.",
-    "Our comprehensive IT consulting framework combines deep industry domain knowledge, rigorous solution assessments, and structured roadmaps. We help organizations modernize their technology stacks, align IT investments with financial goals, and drive seamless digital evolution across all business units."
+    "Aligning your IT investments with overarching business goals can be challenging without objective technical insight and specialized talent. Our consultants evaluate your existing systems and workflows to build efficient, scalable strategies.",
+    "When you face talent gaps or tight project deadlines, our resource augmentation model gives you instant access to elite professionals who integrate seamlessly into your teams."
   ],
   "bulletPointsHeading": "Services Include",
   "bulletPoints": [
-    "Digital Transformation Consulting",
-    "Technology Roadmaps",
-    "Enterprise Architecture",
-    "IT Strategy",
-    "Process Optimization",
-    "IT Governance",
-    "Solution Assessment",
-    "Technology Advisory"
+    "Strategic IT Consulting & Roadmapping",
+    "Digital Transformation Advisory",
+    "Enterprise Architecture Planning",
+    "IT Resource Augmentation",
+    "Dedicated Development Teams",
+    "Project Managers & Solution Architects",
+    "ERP Functional & Technical Experts",
+    "Technology Stack Auditing & Optimization"
   ],
-  "quoteText": "We integrate strategic technology roadmaps, rigorous enterprise architecture frameworks, and expert IT advisory to drive sustainable digital transformation and operational excellence.",
+  "quoteText": "Empower your enterprise with strategic technology guidance and agile workforce extensions that accelerate project delivery and drive long-term success.",
   "bottomParagraphs": [
-    "Our expert consultants conduct comprehensive diagnostic audits of your current IT landscape to identify architectural bottlenecks, security gaps, and opportunities for cost optimization.",
-    "By designing scalable enterprise architectures and forward-looking technology strategies, we empower your leadership team to make informed, data-driven decisions that accelerate project delivery and enhance overall system resilience.",
-    "Beyond strategic planning, Skyreon provides ongoing governance models and implementation oversight to ensure your technology investments continuously deliver measurable business value and adapt smoothly to future industry trends."
+    "We guide enterprise leaders through software selection, legacy modernization, and best-practice adoption to maximize efficiency and ROI on technology spending.",
+    "Our vetted professionals adapt quickly to your workflow, handling administrative and technical overhead so your internal teams can focus on core business growth.",
+    "Partner with Skyreon to overcome technical roadblocks and gain flexible capacity extensions tailored to your corporate vision."
   ]
 }

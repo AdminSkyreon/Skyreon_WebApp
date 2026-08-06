@@ -3,35 +3,67 @@
   "items": [
     {
       "id": 1,
-      "tag": "AI & ORCHESTRATION",
-      "title": "Enterprise AI Agents",
-      "subtitle": "The ultimate AI performance for modern systems.",
-      "expandedText": "Custom engineered LLM architecture, autonomous multi-agent systems, and real-time enterprise data processing. ",
+      "tag": "WEB DEVELOPMENT",
+      "title": "Website & Software Development",
+      "subtitle": "Scalable, high-performance digital solutions built for growth.",
+      "expandedText": "From responsive websites to enterprise-grade software, we build fast, secure, and scalable digital products integrated with AI, automation, and cloud technologies. Every solution is engineered to streamline operations, enhance user experience, and accelerate business growth. ",
       "image": "/skyreon/services/service1.png"
     },
     {
       "id": 2,
-      "tag": "DATA ENGINE",
-      "title": "SQL & Core Databases",
-      "subtitle": "High-throughput database architecture.",
-      "expandedText": "Advanced query tuning, high-availability cluster setup, zero-downtime replication, and petabyte-scale data vault optimization.",
+      "tag": "DEVOPS & INFRASTRUCTURE",
+      "title": "IT Infrastructure DevOps Services",
+      "subtitle": "Reliable, secure, and automated infrastructure for modern businesses.",
+      "expandedText": "We build and manage scalable IT infrastructure with modern DevOps practices to ensure high availability, security, and performance. From cloud architecture and CI/CD pipelines to containerization, infrastructure automation, monitoring, and disaster recovery, our solutions accelerate software delivery while reducing operational complexity and downtime.",
       "image": "/skyreon/services/service2.png"
     },
     {
       "id": 3,
-      "tag": "CLOUD INFRASTRUCTURE",
-      "title": "Multi-Cloud Networks",
-      "subtitle": "Zero-trust serverless environments.",
-      "expandedText": "Kubernetes cluster orchestration, multi-region failover automation, and CI/CD security pipelines.",
+      "tag": "IT CONSULTING",
+      "title": "Technology Consulting & Resource Augmentation",
+      "subtitle": "Strategic expertise and on-demand talent for digital transformation.",
+      "expandedText": "Our consulting services help organizations adopt the right technologies, optimize IT strategies, and accelerate innovation. Whether you need experienced software engineers, cloud architects, DevOps professionals, AI experts, or dedicated project teams, we provide scalable talent and technical leadership to drive successful outcomes.",
       "image": "/skyreon/services/service3.png"
     },
     {
       "id": 4,
-      "tag": "FULL-STACK PLATFORMS",
-      "title": "Custom Applications",
-      "subtitle": "Ultra-fast digital experience.",
-      "expandedText": "Next.js enterprise frontend frameworks integrated seamlessly with high-concurrency microservice APIs.",
+      "tag": "DIGITAL MARKETING",
+      "title": "Digital Marketing",
+      "subtitle": "Intelligent marketing strategies powered by data and innovation.",
+      "expandedText": "From SEO and paid advertising to social media management, content creation, and marketing automation, we craft data-driven campaigns that boost brand awareness, generate high-quality leads, and drive measurable business growth. Our AI-powered insights and performance optimization ensure every campaign delivers maximum impact.",
       "image": "/skyreon/services/service4.png"
+    },
+    {
+      "id": 5,
+      "tag": "BUSINESS INTELLIGENCE",
+      "title": "Business Intelligence & Analytics",
+      "subtitle": "Intelligent analytics that drive informed decisions and business growth.",
+      "expandedText": "Leverage the power of data with our AI-driven Business Intelligence solutions. We design custom dashboards, automate reporting, implement predictive analytics, and deliver real-time insights that enhance operational efficiency, improve strategic planning, and enable organizations to make faster, smarter, and more profitable decisions.",
+      "image": "/skyreon/services/service5.png"
+    },
+    {
+      "id": 6,
+      "tag": "QUALITY ASSURANCE",
+      "title": "Quality Assurance & Testing and business analytic",
+      "subtitle": "Reliable software quality powered by intelligent business insights.",
+      "expandedText": "Our integrated Quality Assurance, Testing, and Business Analytics services help businesses deliver bug-free applications while transforming data into strategic insights. From automated testing, performance validation, and security assessments to custom dashboards, predictive analytics, and business reporting, we enable organizations to improve software quality, optimize operations, and drive smarter decision-making.",
+      "image": "/skyreon/services/service6.png"
+    },
+    {
+      "id": 7,
+      "tag": "CLOUD & SECURITY",
+      "title": "Cloud, Infrastructure & Security",
+      "subtitle": "Empowering businesses with secure, scalable, and future-ready cloud solutions.",
+      "expandedText": "Our Cloud, Infrastructure & Security services are designed to optimize performance, strengthen cybersecurity, and ensure business continuity. From cloud architecture and infrastructure automation to threat detection, compliance, disaster recovery, and 24/7 monitoring, we deliver resilient, secure, and scalable environments that support digital transformation and long-term growth.",
+      "image": "/skyreon/services/service7.png"
+    },
+    {
+      "id": 8,
+      "tag": "AI & AUTOMATION",
+      "title": "Artificial Intelligence & Automation",
+      "subtitle": "Driving innovation through AI-powered solutions and intelligent automation.",
+      "expandedText": "Our Artificial Intelligence & Automation services empower businesses to optimize operations and unlock new opportunities with cutting-edge AI technologies. From generative AI, machine learning, and computer vision to intelligent assistants, process automation, and AI-driven analytics, we build scalable, secure, and future-ready solutions that enhance efficiency, improve decision-making, and accelerate digital transformation.",
+      "image": "/skyreon/services/service8.png"
     }
   ]
 }
