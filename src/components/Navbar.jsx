@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Menu, X, ArrowRight, ChevronDown } from 'lucide-react';
 import navData from '@/data/skyreon/navbarServices.json';
@@ -19,11 +19,15 @@ export default function Navbar() {
   const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
+  // Timeout refs to manage smooth hover delay
+  const dropdownTimeoutRef = useRef(null);
+  const productsTimeoutRef = useRef(null);
+  const resourcesTimeoutRef = useRef(null);
+
   // Preloader States
   const [showPreloader, setShowPreloader] = useState(true);
   const [preloaderFade, setPreloaderFade] = useState(false);
 
-  // Preloader timer & Scroll listener
   useEffect(() => {
     const loadTimer = setTimeout(() => {
       setPreloaderFade(true);
@@ -47,16 +51,27 @@ export default function Navbar() {
     };
   }, []);
 
-  // WhatsApp Handler
   const handleChatConnect = () => {
     const phoneNumber = globalData.whatsappNumber || "919318435136";
     const message = encodeURIComponent(globalData.defaultMessage || "Hi Skyreon Team");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
+  // Hover handlers with delay
+  const handleMouseEnter = (setDropdown, timeoutRef) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setDropdown(true);
+  };
+
+  const handleMouseLeave = (setDropdown, timeoutRef) => {
+    timeoutRef.current = setTimeout(() => {
+      setDropdown(false);
+    }, 250); // 250ms delay taaki mouse move karne ka time mile
+  };
+
   return (
     <>
-      {/* Splash Screen / Preloader - Fully Opaque Gradient to Prevent Text Overlap */}
+      {/* Splash Screen / Preloader */}
       {showPreloader && (
         <div
           className={`fixed inset-0 z-[99999] flex items-center justify-center transition-opacity duration-500 bg-white ${
@@ -68,34 +83,40 @@ export default function Navbar() {
             backgroundSize: '200% 200%'
           }}
         >
-          <div className="flex flex-col items-center justify-center">
+          <div className="relative flex flex-col items-center justify-center p-8">
             {globalData.logoUrl && (
-              <img
-                src={withBasePath(globalData.logoUrl)}
-                alt={globalData.companyName || "Skyreon"}
-                className="w-56 sm:w-72 h-auto object-contain animate-pulse"
-              />
+              <div className="relative z-10 animate-zoomIn3D">
+                <img
+                  src={globalData.logoUrl}
+                  alt={globalData.companyName || "Skyreon"}
+                  className="w-72 sm:w-96 md:w-[420px] h-auto object-contain drop-shadow-2xl"
+                />
+              </div>
             )}
-            <div className="mt-8 w-36 h-1 bg-gray-200 rounded-full overflow-hidden">
-              <div 
-                className="w-full h-full"
-                style={{
-                  background: 'linear-gradient(90deg, transparent, #0083b0, transparent)',
-                  backgroundSize: '200% 100%',
-                  animation: 'loadingBar 1.2s infinite linear'
-                }}
-              ></div>
-            </div>
           </div>
+
           <style jsx>{`
             @keyframes gradientMove {
               0% { background-position: 0% 50%; }
               50% { background-position: 100% 50%; }
               100% { background-position: 0% 50%; }
             }
-            @keyframes loadingBar {
-              0% { transform: translateX(-100%); }
-              100% { transform: translateX(100%); }
+            @keyframes zoomIn3D {
+              0% {
+                transform: scale(0.5) perspective(600px) rotateX(20deg) rotateY(-10deg);
+                opacity: 0;
+              }
+              60% {
+                transform: scale(1.05) perspective(600px) rotateX(0deg) rotateY(0deg);
+                opacity: 1;
+              }
+              100% {
+                transform: scale(1) perspective(600px) rotateX(0deg) rotateY(0deg);
+                opacity: 1;
+              }
+            }
+            .animate-zoomIn3D {
+              animation: zoomIn3D 1.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
             }
           `}</style>
         </div>
@@ -103,24 +124,28 @@ export default function Navbar() {
 
       {/* Main Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all duration-300">
-        <div className="w-full px-2 sm:px-6 lg:px-8 relative">
+        <div className="w-full px-3 sm:px-6 lg:px-8 relative">
           <div className="flex items-center justify-between h-20 px-0">
             
-            {/* Logo */}
-            <div className="flex-shrink-0 relative w-44 sm:w-64 h-16 flex items-center justify-start pl-4 sm:pl-0">
-              <Link href="/" className="absolute inset-0 flex items-center justify-start pl-3 sm:pl-0 focus:outline-none focus:ring-0">
+            {/* Logo Container */}
+            <div className="flex-shrink-0 relative w-60 sm:w-80 h-16 flex items-center justify-start">
+              <Link href="/" className="absolute inset-0 flex items-center justify-start focus:outline-none focus:ring-0">
                 <img 
                   src={withBasePath(globalData.logoUrl)} 
                   alt={globalData.companyName || "Skyreon"} 
                   className={`h-auto object-contain object-left transition-all duration-300 ${
-                    isScrolled ? 'max-lg:opacity-0 max-lg:pointer-events-none max-lg:absolute max-lg:w-0' : 'w-48 sm:w-76 opacity-100'
+                    isScrolled 
+                      ? 'max-lg:opacity-0 max-lg:pointer-events-none max-lg:absolute max-lg:w-0' 
+                      : 'w-48 sm:w-96 opacity-100 max-lg:w-60'
                   }`}
                 />
                 <img 
                   src={withBasePath(globalData.iconUrl || globalData.logoUrl)} 
                   alt={globalData.companyName || "Skyreon"} 
                   className={`h-auto object-contain object-left transition-all duration-300 ${
-                    isScrolled ? 'max-lg:w-10 sm:max-lg:w-12 max-lg:opacity-100 max-lg:ml-1 opacity-0 pointer-events-none absolute w-0' : 'opacity-0 pointer-events-none absolute w-0'
+                    isScrolled 
+                      ? 'max-lg:w-10 sm:max-lg:w-12 max-lg:opacity-100 max-lg:ml-0 opacity-0 pointer-events-none absolute w-0' 
+                      : 'opacity-0 pointer-events-none absolute w-0'
                   }`}
                 />
               </Link>
@@ -128,10 +153,12 @@ export default function Navbar() {
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
+              
+              {/* Services Dropdown */}
               <div 
                 className="static py-4"
-                onMouseEnter={() => setDropdownOpen(true)}
-                onMouseLeave={() => setDropdownOpen(false)}
+                onMouseEnter={() => handleMouseEnter(setDropdownOpen, dropdownTimeoutRef)}
+                onMouseLeave={() => handleMouseLeave(setDropdownOpen, dropdownTimeoutRef)}
               >
                 <button className="flex items-center text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0 cursor-pointer">
                   Services <ChevronDown className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`} />
@@ -159,8 +186,8 @@ export default function Navbar() {
               {/* Products Dropdown */}
               <div 
                 className="relative py-4"
-                onMouseEnter={() => setProductsDropdownOpen(true)}
-                onMouseLeave={() => setProductsDropdownOpen(false)}
+                onMouseEnter={() => handleMouseEnter(setProductsDropdownOpen, productsTimeoutRef)}
+                onMouseLeave={() => handleMouseLeave(setProductsDropdownOpen, productsTimeoutRef)}
               >
                 <button className="flex items-center text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0 cursor-pointer">
                   Products <ChevronDown className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${productsDropdownOpen ? 'rotate-180' : ''}`} />
@@ -186,8 +213,8 @@ export default function Navbar() {
               {/* Resources Dropdown */}
               <div 
                 className="relative py-4"
-                onMouseEnter={() => setResourcesDropdownOpen(true)}
-                onMouseLeave={() => setResourcesDropdownOpen(false)}
+                onMouseEnter={() => handleMouseEnter(setResourcesDropdownOpen, resourcesTimeoutRef)}
+                onMouseLeave={() => handleMouseLeave(setResourcesDropdownOpen, resourcesTimeoutRef)}
               >
                 <button className="flex items-center text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0 cursor-pointer">
                   Resources <ChevronDown className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${resourcesDropdownOpen ? 'rotate-180' : ''}`} />
@@ -229,7 +256,7 @@ export default function Navbar() {
             </div>
 
             {/* Mobile Menu Toggle */}
-            <div className="lg:hidden flex items-center pr-3">
+            <div className="lg:hidden flex items-center pr-0">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="p-2 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-0"
@@ -274,7 +301,6 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Mobile Products Dropdown */}
             <div>
               <button
                 onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
@@ -304,7 +330,6 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Mobile Resources Dropdown */}
             <div>
               <button
                 onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}

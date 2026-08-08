@@ -104,7 +104,7 @@ export default function ServiceDetailPage() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={fadeIn} className="flex items-start gap-6">
-            <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 text-white shadow-md">
+            <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 text-white shadow-md">
               <Search className="w-6 h-6" />
             </div>
             <p className="text-xl sm:text-2xl font-normal text-slate-900 leading-relaxed italic">

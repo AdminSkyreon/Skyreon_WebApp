@@ -2,7 +2,7 @@
   "sectionTitle": "Get to know our services",
   "items": [
     {
-      "id": 1,
+      "id": "website-design-development",
       "tag": "WEB DEVELOPMENT",
       "title": "Website & Software Development",
       "subtitle": "Scalable, high-performance digital solutions built for growth.",
@@ -10,7 +10,7 @@
       "image": "/skyreon/services/service1.png"
     },
     {
-      "id": 2,
+      "id": "infrastructure-management-services",
       "tag": "DEVOPS & INFRASTRUCTURE",
       "title": "IT Infrastructure DevOps Services",
       "subtitle": "Reliable, secure, and automated infrastructure for modern businesses.",
@@ -18,7 +18,7 @@
       "image": "/skyreon/services/service2.png"
     },
     {
-      "id": 3,
+      "id": "it-consulting",
       "tag": "IT CONSULTING",
       "title": "Technology Consulting & Resource Augmentation",
       "subtitle": "Strategic expertise and on-demand talent for digital transformation.",
@@ -26,15 +26,15 @@
       "image": "/skyreon/services/service3.png"
     },
     {
-      "id": 4,
+      "id": "digital-marketing",
       "tag": "DIGITAL MARKETING",
-      "title": "Digital Marketing",
+      "title": "Digital Marketing & Search Engine Optimization(SEO)",
       "subtitle": "Intelligent marketing strategies powered by data and innovation.",
       "expandedText": "From SEO and paid advertising to social media management, content creation, and marketing automation, we craft data-driven campaigns that boost brand awareness, generate high-quality leads, and drive measurable business growth. Our AI-powered insights and performance optimization ensure every campaign delivers maximum impact.",
       "image": "/skyreon/services/service4.png"
     },
     {
-      "id": 5,
+      "id": "business-intelligence-analytics",
       "tag": "BUSINESS INTELLIGENCE",
       "title": "Business Intelligence & Analytics",
       "subtitle": "Intelligent analytics that drive informed decisions and business growth.",
@@ -42,7 +42,7 @@
       "image": "/skyreon/services/service5.png"
     },
     {
-      "id": 6,
+      "id": "quality-assurance-testing",
       "tag": "QUALITY ASSURANCE",
       "title": "Quality Assurance & Testing and business analytic",
       "subtitle": "Reliable software quality powered by intelligent business insights.",
@@ -50,7 +50,7 @@
       "image": "/skyreon/services/service6.png"
     },
     {
-      "id": 7,
+      "id": "cloud-solutions",
       "tag": "CLOUD & SECURITY",
       "title": "Cloud, Infrastructure & Security",
       "subtitle": "Empowering businesses with secure, scalable, and future-ready cloud solutions.",
@@ -58,7 +58,7 @@
       "image": "/skyreon/services/service7.png"
     },
     {
-      "id": 8,
+      "id": "artificial-intelligence-automation",
       "tag": "AI & AUTOMATION",
       "title": "Artificial Intelligence & Automation",
       "subtitle": "Driving innovation through AI-powered solutions and intelligent automation.",

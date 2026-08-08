@@ -1,0 +1,27 @@
+{
+  "id": "security-infra",
+  "title": "Enterprise Security & Zero-Trust Grid",
+  "heroDescription": "Advanced threat protection frameworks, end-to-end encryption protocols, and strict compliance auditing mechanisms engineered to safeguard critical corporate data assets.",
+  "heroImage": "/skyreon/tech/tech6.png",
+  "introParagraphs": [
+    "In an era of evolving digital threats, enterprise systems demand uncompromising security architectures built on zero-trust principles and real-time vulnerability detection.",
+    "Our enterprise security frameworks cover multi-layered access controls, secure data transmission protocols, and proactive threat mitigation strategies to protect sensitive corporate ecosystems."
+  ],
+  "bulletPointsHeading": "Security Capabilities",
+  "bulletPoints": [
+    "Zero-Trust Access Control Architecture",
+    "End-to-End Data Encryption Protocols",
+    "Real-Time Threat Detection & Mitigation",
+    "Automated Vulnerability Scanning",
+    "Secure Identity & Access Management (IAM)",
+    "Regulatory Compliance & Security Auditing",
+    "DDoS Protection & Firewall Optimization",
+    "Incident Response & Forensics Frameworks"
+  ],
+  "quoteText": "We fortify enterprise infrastructure with impenetrable security layers, ensuring complete confidentiality and trust for mission-critical operations.",
+  "bottomParagraphs": [
+    "Our multi-tiered defense mechanisms protect your application endpoints and databases from sophisticated cyber threats and unauthorized intrusion attempts.",
+    "We enforce strict compliance policies, aligning your digital infrastructure with global security standards and industry-best data protection frameworks.",
+    "Regular security audits and continuous monitoring protocols ensure proactive defense readiness against newly emerging vulnerabilities."
+  ]
+}
