@@ -25,6 +25,18 @@
       "title": "Autonomous Enterprise AI Agents",
       "subtitle": "Multi-agent LLM orchestration engines automating complex operational loops with real-time vector retrieval.",
       "image": "/skyreon/tech/tech4.png"
+    },
+    {
+      "id": "cloud-devops",
+      "title": "Cloud DevOps & CI/CD Pipelines",
+      "subtitle": "Automated containerized deployment workflows, Kubernetes cluster scaling, and resilient infrastructure-as-code management.",
+      "image": "/skyreon/tech/tech5.png"
+    },
+    {
+      "id": "security-infra",
+      "title": "Enterprise Security & Zero-Trust Grid",
+      "subtitle": "Advanced threat protection frameworks, end-to-end encryption protocols, and strict compliance auditing mechanisms.",
+      "image": "/skyreon/tech/tech6.png"
     }
   ]
 }

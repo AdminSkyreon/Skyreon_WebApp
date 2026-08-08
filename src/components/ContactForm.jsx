@@ -34,7 +34,7 @@ export default function ContactForm() {
   return (
     <section 
       id="contact" 
-      className="py-24 bg-white text-slate-900 font-sans border-t border-slate-100 relative overflow-hidden scroll-smooth"
+      className="py-24 bg-[#AEE2FF] text-slate-900 font-sans border-t border-slate-100 relative overflow-hidden scroll-smooth"
     >
       <div className="max-w-[1400px] mx-auto px-4 sm:px-8 relative z-10">
         
@@ -49,7 +49,7 @@ export default function ContactForm() {
           <p className="text-xs font-bold text-blue-400 uppercase tracking-[0.25em] mb-2">
             {contactData.tagline}
           </p>
-          <h2 className="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-4xl sm:text-6xl font-semibold tracking-tight text-slate-900">
             {contactData.heading}
           </h2>
         </motion.div>

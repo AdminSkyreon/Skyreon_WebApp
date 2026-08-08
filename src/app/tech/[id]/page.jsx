@@ -12,6 +12,8 @@ import oracleSqlData from '@/data/skyreon/tech/oracle-sql.json';
 import flutterMobileData from '@/data/skyreon/tech/flutter-mobile.json';
 import javaBackendData from '@/data/skyreon/tech/java-backend.json';
 import aiAgentsData from '@/data/skyreon/tech/ai-agents.json';
+import cloudDevopsData from '@/data/skyreon/tech/cloud-devops.json';
+import securityInfraData from '@/data/skyreon/tech/security-infra.json';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 25 },
@@ -23,6 +25,8 @@ const techMap = {
   'flutter-mobile': flutterMobileData,
   'java-backend': javaBackendData,
   'ai-agents': aiAgentsData,
+  'cloud-devops': cloudDevopsData,
+  'security-infra': securityInfraData,
 };
 
 export default function TechDetailPage() {

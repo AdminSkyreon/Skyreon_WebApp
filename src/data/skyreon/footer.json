@@ -11,10 +11,9 @@
   "navigationHeading": "Navigation",
   "navigationLinks": [
     { "label": "Services", "href": "/#services" },
-    { "label": "Solutions", "href": "/#solutions" },
+    { "label": "Industries", "href": "/#industries" },
     { "label": "Tech Stack", "href": "/#tech-stack" },
-    { "label": "Insights", "href": "/#insights" },
-    { "label": "About Us", "href": "/#about-us" }
+    { "label": "About Us", "href": "/#about" }
   ],
   "supportHeading": "Support",
   "supportLinks": [

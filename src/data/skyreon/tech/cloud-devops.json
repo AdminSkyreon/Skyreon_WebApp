@@ -1,0 +1,27 @@
+{
+  "id": "cloud-devops",
+  "title": "Cloud DevOps & CI/CD Pipelines",
+  "heroDescription": "Automated containerized deployment workflows, Kubernetes cluster scaling, and resilient infrastructure-as-code management designed for absolute reliability and fast release cycles.",
+  "heroImage": "/skyreon/tech/tech5.png",
+  "introParagraphs": [
+    "Modern enterprise applications require robust cloud infrastructure and streamlined deployment pipelines to ensure high availability, zero-downtime updates, and elastic scalability.",
+    "Our DevOps capabilities integrate automated CI/CD workflows, container orchestration, and proactive server monitoring to minimize deployment risks and optimize cloud resource utilization."
+  ],
+  "bulletPointsHeading": "DevOps & Infrastructure Capabilities",
+  "bulletPoints": [
+    "Automated CI/CD Pipeline Deployment",
+    "Kubernetes & Docker Container Orchestration",
+    "Infrastructure-as-Code (IaC) Provisioning",
+    "High-Availability Cloud Server Management",
+    "Proactive Performance & Uptime Monitoring",
+    "Automated Backup & Disaster Recovery",
+    "Load Balancing & Traffic Routing",
+    "Enterprise Cloud Security & Access Control"
+  ],
+  "quoteText": "We bridge development and operations seamlessly, delivering continuous delivery pipelines that scale dynamically with corporate growth.",
+  "bottomParagraphs": [
+    "By automating build, test, and release cycles, our engineering pipelines eliminate manual errors and accelerate time-to-market for enterprise solutions.",
+    "Our multi-cloud strategies and resilient container setups ensure your applications withstand high traffic loads and sudden surges without performance degradation.",
+    "We continuously audit cloud infrastructure settings to enforce strict security standards and cost-efficient resource allocation across all environments."
+  ]
+}

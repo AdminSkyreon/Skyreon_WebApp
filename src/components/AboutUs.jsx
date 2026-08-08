@@ -23,7 +23,7 @@ export default function AboutUs() {
   return (
     <section 
       id="about" 
-      className="py-24 bg-white text-slate-900 font-sans scroll-mt-20 border-t border-slate-100 relative overflow-hidden"
+      className="py-24 bg-[#CFEBFF] text-slate-900 font-sans scroll-mt-20 border-t border-slate-100 relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -44,7 +44,7 @@ export default function AboutUs() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.15] max-w-4xl"
+            className="text-4xl sm:text-6xl font-semibold tracking-tight text-slate-900"
           >
             Architecting the Digital <br />
             Innovation
