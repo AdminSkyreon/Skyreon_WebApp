@@ -87,7 +87,7 @@ export default function Navbar() {
             {globalData.logoUrl && (
               <div className="relative z-10 animate-zoomIn3D">
                 <img
-                  src={globalData.logoUrl}
+                  src={withBasePath(globalData.logoUrl)}
                   alt={globalData.companyName || "Skyreon"}
                   className="w-72 sm:w-96 md:w-[420px] h-auto object-contain drop-shadow-2xl"
                 />
@@ -124,8 +124,8 @@ export default function Navbar() {
 
       {/* Main Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all duration-300">
-        <div className="w-full px-3 sm:px-6 lg:px-8 relative">
-          <div className="flex items-center justify-between h-20 px-0">
+        <div className="w-full px-0 sm:px-6 lg:px-8 relative">
+          <div className="flex items-center justify-between h-20 px-3 sm:px-0">
             
             {/* Logo Container */}
             <div className="flex-shrink-0 relative w-60 sm:w-80 h-16 flex items-center justify-start">
@@ -136,7 +136,7 @@ export default function Navbar() {
                   className={`h-auto object-contain object-left transition-all duration-300 ${
                     isScrolled 
                       ? 'max-lg:opacity-0 max-lg:pointer-events-none max-lg:absolute max-lg:w-0' 
-                      : 'w-48 sm:w-96 opacity-100 max-lg:w-60'
+                      : 'w-50 sm:w-96 opacity-100 max-lg:w-50'
                   }`}
                 />
                 <img 

@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import industriesData from '../data/skyreon/industries.json';
 import { withBasePath } from '@/lib/paths';
 
@@ -40,27 +40,6 @@ export default function Industries() {
     return () => cancelAnimationFrame(requestRef.current);
   }, [animate]);
 
-  const scrollLeftManual = () => {
-    if (scrollerRef.current) {
-      const cardWidth = 280 + 16; // card width + gap
-      xPos.current += cardWidth;
-      if (xPos.current > 0) xPos.current = 0;
-      scrollerRef.current.style.transform = `translateX(${xPos.current}px)`;
-    }
-  };
-
-  const scrollRightManual = () => {
-    if (scrollerRef.current) {
-      const cardWidth = 280 + 16;
-      const containerWidth = scrollerRef.current.scrollWidth / 2;
-      xPos.current -= cardWidth;
-      if (Math.abs(xPos.current) >= containerWidth) {
-        xPos.current = 0;
-      }
-      scrollerRef.current.style.transform = `translateX(${xPos.current}px)`;
-    }
-  };
-
   return (
     <section 
       id="industries" 
@@ -83,24 +62,6 @@ export default function Industries() {
               {industriesData.sectionTitle || "Enterprise Industries."}
             </h2>
           </motion.div>
-
-          {/* Controls */}
-          <div className="flex items-center gap-3">
-            <button 
-              onClick={scrollLeftManual}
-              aria-label="Previous Industries"
-              className="w-10 h-10 rounded-full border border-slate-300 bg-white hover:bg-slate-900 hover:text-white hover:border-slate-900 text-slate-700 flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm active:scale-95"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-            <button 
-              onClick={scrollRightManual}
-              aria-label="Next Industries"
-              className="w-10 h-10 rounded-full border border-slate-300 bg-white hover:bg-slate-900 hover:text-white hover:border-slate-900 text-slate-700 flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm active:scale-95"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
-          </div>
         </div>
       </div>
 
