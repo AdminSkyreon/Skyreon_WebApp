@@ -4,6 +4,8 @@ export function generateStaticParams() {
     { id: "flutter-mobile" },
     { id: "java-backend" },
     { id: "ai-agents" },
+    { id: 'cloud-devops' },
+    { id: 'security-infra' },
   ];
 }
 
