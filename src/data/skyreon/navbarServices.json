@@ -1,6 +1,11 @@
 {
   "servicesMenu": [
     {
+      "title": "Industrial and Financial Systems (IFS)",
+      "slug": "ifs",
+      "category": "Enterprise Solutions"
+    },
+    {
       "title": "Website & Software Development",
       "slug": "website-design-development",
       "category": "Development"

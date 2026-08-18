@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 // Component Imports
@@ -55,8 +55,8 @@ export default function HomeClient() {
       />
 
       {/* Hero Section */}
-      <section className="relative pt-32 md:pt-40 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 w-full items-center">
+      <section className="relative pt-24 md:pt-24 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 w-full items-center">
           
           <div className="lg:col-span-7 text-left flex flex-col justify-center">
             <motion.div
@@ -64,7 +64,7 @@ export default function HomeClient() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <span className="inline-flex px-3.5 py-1.5 text-xs font-bold tracking-wider text-cyan-800 uppercase bg-cyan-100/90 rounded-full border border-cyan-300 mb-6 shadow-sm">
+              <span className="inline-flex px-3.5 py-1.5 text-xs font-bold tracking-wider text-cyan-800 uppercase bg-cyan-100/90 rounded-full border border-cyan-300 mb-4 shadow-sm">
                 {heroData.badgeTag}
               </span>
             </motion.div>
@@ -85,7 +85,7 @@ export default function HomeClient() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="mt-6 text-base sm:text-lg text-slate-600 max-w-xl font-medium leading-relaxed"
+              className="mt-4 text-base sm:text-lg text-slate-600 max-w-xl font-medium leading-relaxed"
             >
               {heroData.subtitle}
             </motion.p>
@@ -94,7 +94,7 @@ export default function HomeClient() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="mt-10 flex flex-wrap gap-4"
+              className="mt-6 flex flex-wrap gap-4"
             >
               <a 
                 href="#services" 
@@ -109,6 +109,27 @@ export default function HomeClient() {
                 {heroData.secondaryCta}
               </a>
             </motion.div>
+
+            {/* Bottom Left Stretchy Arrow with gap */}
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.7, duration: 0.5 }}
+              className="mt-6 flex justify-start"
+            >
+              <a 
+                href="#services" 
+                className="p-2 rounded-full bg-cyan-50 hover:bg-cyan-100 text-cyan-600 border border-cyan-200 transition-all shadow-sm flex items-center justify-center"
+                aria-label="Scroll to next section"
+              >
+                <motion.div
+                  animate={{ y: [0, 8, 0], scaleY: [1, 1.25, 1] }}
+                  transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+                >
+                  <ChevronDown className="w-5 h-5" />
+                </motion.div>
+              </a>
+            </motion.div>
           </div>
 
           {/* Right Column Bot */}
@@ -117,7 +138,7 @@ export default function HomeClient() {
               initial={{ opacity: 0, y: 20, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
-              className="mb-6 bg-white/90 backdrop-blur-md border border-slate-200 p-5 rounded-2xl rounded-bl-none shadow-xl max-w-xs text-left relative z-20"
+              className="mb-4 bg-white/90 backdrop-blur-md border border-slate-200 p-5 rounded-2xl rounded-bl-none shadow-xl max-w-xs text-left relative z-20"
             >
               <p className="text-xs text-cyan-700 font-bold mb-1 flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> {heroData.agentTitle}
@@ -134,9 +155,9 @@ export default function HomeClient() {
             </motion.div>
 
             <motion.div
-              animate={{ y: [0, -12, 0] }}
+              animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-              className="relative w-64 h-80 flex items-center justify-center cursor-pointer"
+              className="relative w-64 h-72 flex items-center justify-center cursor-pointer"
               onClick={handleChatConnect}
             >
               <div className="absolute inset-0 rounded-full bg-gradient-to-t from-cyan-400/20 to-transparent blur-2xl scale-90" />
