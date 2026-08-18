@@ -9,6 +9,7 @@ import Footer from '@/components/Footer';
 import { withBasePath } from '@/lib/paths';
 
 // Yeh aapki woh 8 nayi/final JSON files hongੀ jinka structure aapne share kiya hai
+import ifsData from '@/data/skyreon/services/ifs.json';
 import websiteDesignData from '@/data/skyreon/services/website-design-development.json';
 import infrastructureData from '@/data/skyreon/services/infrastructure-management-services.json';
 import itConsultingData from '@/data/skyreon/services/it-consulting.json';
@@ -25,6 +26,7 @@ const fadeIn = {
 
 // Sirf inhi 8 slugs ki mapping rahegi jo navbarServices.json mein hain
 const serviceMap = {
+  'ifs': ifsData,
   'website-design-development': websiteDesignData,
   'infrastructure-management-services': infrastructureData,
   'it-consulting': itConsultingData,

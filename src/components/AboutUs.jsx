@@ -23,7 +23,7 @@ export default function AboutUs() {
   return (
     <section 
       id="about" 
-      className="py-24 bg-[#CFEBFF] text-slate-900 font-sans scroll-mt-20 border-t border-slate-100 relative overflow-hidden"
+      className="py-24 bg-[#E3F2FD] text-slate-900 font-sans scroll-mt-20 border-t border-slate-100 relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

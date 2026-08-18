@@ -14,7 +14,7 @@ export default function TechStack() {
   const techSpotlights = techDataJSON.items || [];
 
   return (
-    <section id="tech-stack" className="py-16 sm:py-20 bg-[#CFEBFF] text-slate-900 font-sans border-t border-slate-200/60 relative overflow-hidden select-none">
+    <section id="tech-stack" className="py-16 sm:py-20 bg-[#E3F2FD] text-slate-900 font-sans border-t border-slate-200/60 relative overflow-hidden select-none">
       
       {/* Background Soft Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[450px] bg-slate-200/40 rounded-full blur-[140px] pointer-events-none" />

@@ -19,21 +19,21 @@ export default function Navbar() {
   const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Timeout refs to manage smooth hover delay
   const dropdownTimeoutRef = useRef(null);
   const productsTimeoutRef = useRef(null);
   const resourcesTimeoutRef = useRef(null);
 
-  // Preloader States
   const [showPreloader, setShowPreloader] = useState(true);
   const [preloaderFade, setPreloaderFade] = useState(false);
 
   useEffect(() => {
     const loadTimer = setTimeout(() => {
       setPreloaderFade(true);
+
       const removeTimer = setTimeout(() => {
         setShowPreloader(false);
       }, 500);
+
       return () => clearTimeout(removeTimer);
     }, 1500);
 
@@ -44,7 +44,9 @@ export default function Navbar() {
         setIsScrolled(false);
       }
     };
+
     window.addEventListener('scroll', handleScroll);
+
     return () => {
       clearTimeout(loadTimer);
       window.removeEventListener('scroll', handleScroll);
@@ -52,12 +54,17 @@ export default function Navbar() {
   }, []);
 
   const handleChatConnect = () => {
-    const phoneNumber = globalData.whatsappNumber || "919318435136";
-    const message = encodeURIComponent(globalData.defaultMessage || "Hi Skyreon Team");
-    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+    const phoneNumber = globalData.whatsappNumber || '919318435136';
+    const message = encodeURIComponent(
+      globalData.defaultMessage || 'Hi Skyreon Team'
+    );
+
+    window.open(
+      `https://wa.me/${phoneNumber}?text=${message}`,
+      '_blank'
+    );
   };
 
-  // Hover handlers with delay
   const handleMouseEnter = (setDropdown, timeoutRef) => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setDropdown(true);
@@ -66,7 +73,7 @@ export default function Navbar() {
   const handleMouseLeave = (setDropdown, timeoutRef) => {
     timeoutRef.current = setTimeout(() => {
       setDropdown(false);
-    }, 250); // 250ms delay taaki mouse move karne ka time mile
+    }, 250);
   };
 
   return (
@@ -75,12 +82,15 @@ export default function Navbar() {
       {showPreloader && (
         <div
           className={`fixed inset-0 z-[99999] flex items-center justify-center transition-opacity duration-500 bg-white ${
-            preloaderFade ? 'opacity-0 pointer-events-none' : 'opacity-100'
+            preloaderFade
+              ? 'opacity-0 pointer-events-none'
+              : 'opacity-100'
           }`}
           style={{
-            background: 'linear-gradient(135deg, #e0f7fa 0%, #ffffff 50%, #e1f5fe 100%)',
+            background:
+              'linear-gradient(135deg, #e0f7fa 0%, #ffffff 50%, #e1f5fe 100%)',
             animation: 'gradientMove 6s ease infinite',
-            backgroundSize: '200% 200%'
+            backgroundSize: '200% 200%',
           }}
         >
           <div className="relative flex flex-col items-center justify-center p-8">
@@ -88,7 +98,7 @@ export default function Navbar() {
               <div className="relative z-10 animate-zoomIn3D">
                 <img
                   src={withBasePath(globalData.logoUrl)}
-                  alt={globalData.companyName || "Skyreon"}
+                  alt={globalData.companyName || 'Skyreon'}
                   className="w-72 sm:w-96 md:w-[420px] h-auto object-contain drop-shadow-2xl"
                 />
               </div>
@@ -97,26 +107,38 @@ export default function Navbar() {
 
           <style jsx>{`
             @keyframes gradientMove {
-              0% { background-position: 0% 50%; }
-              50% { background-position: 100% 50%; }
-              100% { background-position: 0% 50%; }
+              0% {
+                background-position: 0% 50%;
+              }
+              50% {
+                background-position: 100% 50%;
+              }
+              100% {
+                background-position: 0% 50%;
+              }
             }
+
             @keyframes zoomIn3D {
               0% {
-                transform: scale(0.5) perspective(600px) rotateX(20deg) rotateY(-10deg);
+                transform: scale(0.5) perspective(600px) rotateX(20deg)
+                  rotateY(-10deg);
                 opacity: 0;
               }
               60% {
-                transform: scale(1.05) perspective(600px) rotateX(0deg) rotateY(0deg);
+                transform: scale(1.05) perspective(600px) rotateX(0deg)
+                  rotateY(0deg);
                 opacity: 1;
               }
               100% {
-                transform: scale(1) perspective(600px) rotateX(0deg) rotateY(0deg);
+                transform: scale(1) perspective(600px) rotateX(0deg)
+                  rotateY(0deg);
                 opacity: 1;
               }
             }
+
             .animate-zoomIn3D {
-              animation: zoomIn3D 1.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+              animation: zoomIn3D 1.1s
+                cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
             }
           `}</style>
         </div>
@@ -126,25 +148,33 @@ export default function Navbar() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all duration-300">
         <div className="w-full px-0 sm:px-6 lg:px-8 relative">
           <div className="flex items-center justify-between h-20 px-3 sm:px-0">
-            
+
             {/* Logo Container */}
-            <div className="flex-shrink-0 relative w-60 sm:w-80 h-16 flex items-center justify-start">
-              <Link href="/" className="absolute inset-0 flex items-center justify-start focus:outline-none focus:ring-0">
-                <img 
-                  src={withBasePath(globalData.logoUrl)} 
-                  alt={globalData.companyName || "Skyreon"} 
+            <div className="flex-shrink-0 relative w-60 sm:w-80 h-16 flex items-center justify-start overflow-visible">
+              <Link
+                href="/"
+                className="absolute inset-0 flex items-center justify-start focus:outline-none focus:ring-0"
+              >
+                {/* Full Logo */}
+                <img
+                  src={withBasePath(globalData.logoUrl)}
+                  alt={globalData.companyName || 'Skyreon'}
                   className={`h-auto object-contain object-left transition-all duration-300 ${
-                    isScrolled 
-                      ? 'max-lg:opacity-0 max-lg:pointer-events-none max-lg:absolute max-lg:w-0' 
-                      : 'w-50 sm:w-96 opacity-100 max-lg:w-50'
+                    isScrolled
+                      ? 'max-lg:opacity-0 max-lg:pointer-events-none max-lg:absolute max-lg:w-0'
+                      : 'w-50 sm:w-96 opacity-100 max-lg:w-86 max-lg:-translate-x-12'
                   }`}
                 />
-                <img 
-                  src={withBasePath(globalData.iconUrl || globalData.logoUrl)} 
-                  alt={globalData.companyName || "Skyreon"} 
+
+                {/* Icon - Scroll par mobile mein */}
+                <img
+                  src={withBasePath(
+                    globalData.iconUrl || globalData.logoUrl
+                  )}
+                  alt={globalData.companyName || 'Skyreon'}
                   className={`h-auto object-contain object-left transition-all duration-300 ${
-                    isScrolled 
-                      ? 'max-lg:w-10 sm:max-lg:w-12 max-lg:opacity-100 max-lg:ml-0 opacity-0 pointer-events-none absolute w-0' 
+                    isScrolled
+                      ? 'max-lg:w-10 sm:max-lg:w-12 max-lg:opacity-100 max-lg:ml-0 opacity-0 pointer-events-none absolute w-0'
                       : 'opacity-0 pointer-events-none absolute w-0'
                   }`}
                 />
@@ -153,15 +183,24 @@ export default function Navbar() {
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
-              
+
               {/* Services Dropdown */}
-              <div 
+              <div
                 className="static py-4"
-                onMouseEnter={() => handleMouseEnter(setDropdownOpen, dropdownTimeoutRef)}
-                onMouseLeave={() => handleMouseLeave(setDropdownOpen, dropdownTimeoutRef)}
+                onMouseEnter={() =>
+                  handleMouseEnter(setDropdownOpen, dropdownTimeoutRef)
+                }
+                onMouseLeave={() =>
+                  handleMouseLeave(setDropdownOpen, dropdownTimeoutRef)
+                }
               >
                 <button className="flex items-center text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0 cursor-pointer">
-                  Services <ChevronDown className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`} />
+                  Services
+                  <ChevronDown
+                    className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${
+                      dropdownOpen ? 'rotate-180' : ''
+                    }`}
+                  />
                 </button>
 
                 {dropdownOpen && (
@@ -184,13 +223,28 @@ export default function Navbar() {
               </div>
 
               {/* Products Dropdown */}
-              <div 
+              <div
                 className="relative py-4"
-                onMouseEnter={() => handleMouseEnter(setProductsDropdownOpen, productsTimeoutRef)}
-                onMouseLeave={() => handleMouseLeave(setProductsDropdownOpen, productsTimeoutRef)}
+                onMouseEnter={() =>
+                  handleMouseEnter(
+                    setProductsDropdownOpen,
+                    productsTimeoutRef
+                  )
+                }
+                onMouseLeave={() =>
+                  handleMouseLeave(
+                    setProductsDropdownOpen,
+                    productsTimeoutRef
+                  )
+                }
               >
                 <button className="flex items-center text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0 cursor-pointer">
-                  Products <ChevronDown className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${productsDropdownOpen ? 'rotate-180' : ''}`} />
+                  Products
+                  <ChevronDown
+                    className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${
+                      productsDropdownOpen ? 'rotate-180' : ''
+                    }`}
+                  />
                 </button>
 
                 {productsDropdownOpen && (
@@ -199,7 +253,9 @@ export default function Navbar() {
                       <Link
                         key={index}
                         href={`/products/${product.slug}`}
-                        onClick={() => setProductsDropdownOpen(false)}
+                        onClick={() =>
+                          setProductsDropdownOpen(false)
+                        }
                         className="flex items-center justify-between px-4 py-3 text-sm font-medium text-gray-700 hover:text-[#0083b0] hover:bg-cyan-50/60 transition-colors"
                       >
                         <span>{product.title}</span>
@@ -211,13 +267,28 @@ export default function Navbar() {
               </div>
 
               {/* Resources Dropdown */}
-              <div 
+              <div
                 className="relative py-4"
-                onMouseEnter={() => handleMouseEnter(setResourcesDropdownOpen, resourcesTimeoutRef)}
-                onMouseLeave={() => handleMouseLeave(setResourcesDropdownOpen, resourcesTimeoutRef)}
+                onMouseEnter={() =>
+                  handleMouseEnter(
+                    setResourcesDropdownOpen,
+                    resourcesTimeoutRef
+                  )
+                }
+                onMouseLeave={() =>
+                  handleMouseLeave(
+                    setResourcesDropdownOpen,
+                    resourcesTimeoutRef
+                  )
+                }
               >
                 <button className="flex items-center text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0 cursor-pointer">
-                  Resources <ChevronDown className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${resourcesDropdownOpen ? 'rotate-180' : ''}`} />
+                  Resources
+                  <ChevronDown
+                    className={`ml-1.5 w-4 h-4 transition-transform duration-200 ${
+                      resourcesDropdownOpen ? 'rotate-180' : ''
+                    }`}
+                  />
                 </button>
 
                 {resourcesDropdownOpen && (
@@ -226,7 +297,9 @@ export default function Navbar() {
                       <Link
                         key={index}
                         href={`/resources/${resource.slug}`}
-                        onClick={() => setResourcesDropdownOpen(false)}
+                        onClick={() =>
+                          setResourcesDropdownOpen(false)
+                        }
                         className="flex items-center justify-between px-4 py-3 text-sm font-medium text-gray-700 hover:text-[#0083b0] hover:bg-cyan-50/60 transition-colors"
                       >
                         <span>{resource.title}</span>
@@ -237,10 +310,17 @@ export default function Navbar() {
                 )}
               </div>
 
-              <Link href="/#about" className="text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0">
+              <Link
+                href="/#about"
+                className="text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0"
+              >
                 About Us
               </Link>
-              <Link href="/#contact" className="text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0">
+
+              <Link
+                href="/#contact"
+                className="text-gray-700 hover:text-[#0083b0] font-medium text-base transition-colors focus:outline-none focus:ring-0"
+              >
                 Contact Us
               </Link>
             </div>
@@ -251,7 +331,8 @@ export default function Navbar() {
                 onClick={handleChatConnect}
                 className="bg-[#0a1128] hover:bg-[#0083b0] text-white px-6 py-3 rounded-full font-medium text-sm transition-all shadow-md hover:shadow-lg active:scale-95 cursor-pointer flex items-center gap-2 focus:outline-none focus:ring-0"
               >
-                Talk to Expert <ArrowRight className="w-4 h-4" />
+                Talk to Expert
+                <ArrowRight className="w-4 h-4" />
               </button>
             </div>
 
@@ -262,23 +343,33 @@ export default function Navbar() {
                 className="p-2 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-0"
                 aria-label="Toggle Menu"
               >
-                {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
+                {isOpen ? (
+                  <X className="w-7 h-7" />
+                ) : (
+                  <Menu className="w-7 h-7" />
+                )}
               </button>
             </div>
-
           </div>
         </div>
 
         {/* Mobile Navigation Menu */}
         {isOpen && (
           <div className="lg:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-6 space-y-3 max-h-[80vh] overflow-y-auto shadow-xl">
+
             <div>
               <button
-                onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                onClick={() =>
+                  setMobileServicesOpen(!mobileServicesOpen)
+                }
                 className="w-full flex items-center justify-between py-3 px-3 text-base font-semibold text-gray-800 hover:bg-gray-50 rounded-lg focus:outline-none focus:ring-0"
               >
                 <span>Services</span>
-                <ChevronDown className={`w-5 h-5 transition-transform duration-200 ${mobileServicesOpen ? 'rotate-180' : ''}`} />
+                <ChevronDown
+                  className={`w-5 h-5 transition-transform duration-200 ${
+                    mobileServicesOpen ? 'rotate-180' : ''
+                  }`}
+                />
               </button>
 
               {mobileServicesOpen && (
@@ -303,11 +394,17 @@ export default function Navbar() {
 
             <div>
               <button
-                onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                onClick={() =>
+                  setMobileProductsOpen(!mobileProductsOpen)
+                }
                 className="w-full flex items-center justify-between py-3 px-3 text-base font-semibold text-gray-800 hover:bg-gray-50 rounded-lg focus:outline-none focus:ring-0"
               >
                 <span>Products</span>
-                <ChevronDown className={`w-5 h-5 transition-transform duration-200 ${mobileProductsOpen ? 'rotate-180' : ''}`} />
+                <ChevronDown
+                  className={`w-5 h-5 transition-transform duration-200 ${
+                    mobileProductsOpen ? 'rotate-180' : ''
+                  }`}
+                />
               </button>
 
               {mobileProductsOpen && (
@@ -332,11 +429,17 @@ export default function Navbar() {
 
             <div>
               <button
-                onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
+                onClick={() =>
+                  setMobileResourcesOpen(!mobileResourcesOpen)
+                }
                 className="w-full flex items-center justify-between py-3 px-3 text-base font-semibold text-gray-800 hover:bg-gray-50 rounded-lg focus:outline-none focus:ring-0"
               >
                 <span>Resources</span>
-                <ChevronDown className={`w-5 h-5 transition-transform duration-200 ${mobileResourcesOpen ? 'rotate-180' : ''}`} />
+                <ChevronDown
+                  className={`w-5 h-5 transition-transform duration-200 ${
+                    mobileResourcesOpen ? 'rotate-180' : ''
+                  }`}
+                />
               </button>
 
               {mobileResourcesOpen && (
@@ -366,6 +469,7 @@ export default function Navbar() {
             >
               About Us
             </Link>
+
             <Link
               href="/#contact"
               onClick={() => setIsOpen(false)}
@@ -376,7 +480,10 @@ export default function Navbar() {
 
             <div className="pt-4">
               <button
-                onClick={() => { setIsOpen(false); handleChatConnect(); }}
+                onClick={() => {
+                  setIsOpen(false);
+                  handleChatConnect();
+                }}
                 className="w-full text-center bg-[#0a1128] hover:bg-[#0083b0] text-white py-3 rounded-xl font-medium text-base shadow-md transition-colors cursor-pointer focus:outline-none focus:ring-0"
               >
                 Talk to Expert

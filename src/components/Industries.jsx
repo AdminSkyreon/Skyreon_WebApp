@@ -12,7 +12,7 @@ export default function Industries() {
   const scrollerRef = useRef(null);
   const requestRef = useRef();
   const xPos = useRef(0);
-  const speed = 1.8;
+  const speed = 1.3;
 
   const items = industriesData.items || [];
   const duplicatedItems = [...items, ...items];
@@ -43,7 +43,7 @@ export default function Industries() {
   return (
     <section 
       id="industries" 
-      className="py-16 bg-[#AEE2FF] text-slate-900 font-sans border-t border-slate-100 relative overflow-hidden"
+      className="py-16 bg-[#E3F2FD] text-slate-900 font-sans border-t border-slate-100 relative overflow-hidden"
     >
       <div className="max-w-[1400px] mx-auto px-4 sm:px-8 mb-8">
         

@@ -1,5 +1,6 @@
 export function generateStaticParams() {
   return [
+    { slug: "ifs" },
     { slug: "website-design-development" },
     { slug: "infrastructure-management-services" },
     { slug: "it-consulting" },

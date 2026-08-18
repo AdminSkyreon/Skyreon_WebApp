@@ -34,7 +34,7 @@ export default function ContactForm() {
   return (
     <section 
       id="contact" 
-      className="py-24 bg-[#AEE2FF] text-slate-900 font-sans border-t border-slate-100 relative overflow-hidden scroll-smooth"
+      className="py-24 bg-[#E3F2FD] text-slate-900 font-sans border-t border-slate-100 relative overflow-hidden scroll-smooth"
     >
       <div className="max-w-[1400px] mx-auto px-4 sm:px-8 relative z-10">
         

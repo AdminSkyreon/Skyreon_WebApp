@@ -2,6 +2,13 @@
   "sectionTitle": "Get to know our services",
   "items": [
     {
+  "id": "ifs",
+  "tag": "ENTERPRISE SOLUTIONS",
+  "title": "Industrial and Financial Systems (IFS)",
+  "subtitle": "Comprehensive enterprise management and software solutions.",
+  "expandedText": "Streamline your enterprise operations with powerful IFS solutions tailored for maximum efficiency and global scaling.",
+  "image": "/skyreon/services/service9.png"
+},    {
       "id": "website-design-development",
       "tag": "WEB DEVELOPMENT",
       "title": "Website & Software Development",
