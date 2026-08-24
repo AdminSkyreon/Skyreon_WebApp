@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,17 +24,8 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-53DQXXLZ');`,
-          }}
-        />
-        {/* End Google Tag Manager */}
+        {/* Google Search Console Verification Meta Tag */}
+        <meta name="google-site-verification" content="d1c3luWDJOdSPxNzjfpDZffw5QXaKng4ulIjUuFVMYg" />
       </head>
       <body className="min-h-full flex flex-col">
         {/* Google Tag Manager (noscript) */}
@@ -44,6 +36,19 @@ export default function RootLayout({ children }) {
           }}
         />
         {/* End Google Tag Manager (noscript) */}
+
+        {/* Google Tag Manager Script using Next.js Script component */}
+        <Script
+          id="google-tag-manager"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-53DQXXLZ');`,
+          }}
+        />
 
         {children}
       </body>
